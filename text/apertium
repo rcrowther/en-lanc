@@ -1,0 +1,117 @@
+= Apertium/tolk, new pairs
+
+== Setup
+
+=== Install needed build tools
+
+autoconf
+autogen
+
+=== Install prerequisites
+Get the more developed stuff than the packages,
+http://wiki.apertium.org/wiki/Prerequisites_for_Debian
+
+=== Setup a new set of languages
+Make a folder, then use the Python appertium-init script,
+http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO
+
+
+=== Setup the build
+
+cd apertium-fie
+./autogen.sh
+cd ..
+
+cd apertium-bar
+./autogen.sh
+cd ..
+
+cd apertium-fie-bar
+./autogen.sh --with-lang1=../apertium-fie --with-lang2=../apertium-bar
+
+This info from:
+Down to,
+For language pairs that depend on monolingual packages (apertium-XYZ) 
+http://wiki.apertium.org/wiki/Minimal_installation_from_SVN
+
+=== Making the build
+Open in the bilingual folder and this will compie everything (mono languages also),
+
+make -j3 langs
+
+(-j3: use three cores if possible)
+
+== Testing and making
+
+=== Single dictionaries
+Any single dictonary can be compiled individually.
+
+make
+
+
+To test the dictonary,
+
+echo "house" | lt-proc xxx.automorf.bin
+
+In the translate to language directory, much the same,
+
+echo "house" | lt-proc yyy.automorf.bin
+
+to see what it generates (or if it will generate).
+
+ 
+=== Overall
+In the bilingual folder,
+
+make -j3 langs
+
+To test the dictionary, do as above on the jopint dictionary,
+
+echo "house" | lt-proc xxx-yyy.automorf.bin
+
+To test the translation,
+
+echo "house" | apertium -d . xxx-yyy
+
+to see what it sees. To try in reverse,
+
+echo "house" | apertium -d . yyy-xxx
+
+
+Hopelessly outdated compile instructions,
+http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO
+
+
+== Using tolk
+Install tolk from Debian package. It has not changed much, and compile is unreliable,
+
+apertium-tolk
+(will also install apertium-dbus)
+
+Now reposition the overall install (bilingual dictionary) into the main directories (I can not get it to work otherwise, at the moment, tolk just hunts it's local folders, so you would have to compile and install tolk to work from /usr/local/share)
+
+Empty anything there,
+
+make clean
+
+Retarget (note the prefix),
+
+./autogen.sh --prefix=/usr --with-lang1=../apertium-fie --with-lang2=../apertium-bar
+
+compile,
+
+make
+
+install,
+
+sudo make install
+
+Now run tolk
+
+$ apertium-tolk
+
+Language pair should be listed.
+
+
+
+

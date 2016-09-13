@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+  <!-- Define the alphabet below. -->
+  <alphabet>aAbBcCdDÐeEfFgGhHiIJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ</alphabet>
+
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+<!--
+    <sdef n="n"               c="Noun"/>
+-->
+    <sdef n="t"               c="Thing"/>
+    <sdef n="np"              c="Proper noun"/>
+    <sdef n="vblex"           c="Verb, lexical"/>
+<!--
+    <sdef n="vbmod"           c="Modal verb"/>
+-->
+    <sdef n="tmmood"           c="Time mood"/> 
+    <sdef n="vaux"            c="Auxiliary verb"/>
+    <sdef n="vbser"           c="'To be' verb"/>
+    <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="cnjsub"          c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="pr"              c="Preposition"/>
+    <sdef n="adv"             c="Adverb"/>
+    <sdef n="ij"              c="Interjection"/>
+<!--
+    <sdef n="adj"             c="Adjective"/>
+-->
+    <sdef n="tsuch"             c="Thing such"/>
+
+<!--
+    <sdef n="prn"             c="Pronoun"/>
+-->
+    <sdef n="tw"             c="Thing wide"/>
+
+    <sdef n="attr"            c="Attributive"/>
+    <sdef n="top"             c="Toponym"/>
+    <sdef n="ant"             c="Anthroponym"/>
+    <sdef n="cog"             c="Cognomen"/>
+    <sdef n="org"             c="Organisation"/>
+    <sdef n="al"              c="Altres / misc proper nouns"/>
+
+<!--
+    <sdef n="pers"            c="Personal pronoun"/>
+    <sdef n="ref"             c="Reflexive pronoun"/>
+    <sdef n="res"             c="Reciprocal pronoun"/>
+-->
+    <sdef n="wt"            c="Wide thing"/>
+
+    <sdef n="det"             c="Determiner"/>
+    <sdef n="pos"             c="Possessive"/>
+
+    <sdef n="p1"              c="1st person"/>
+    <sdef n="p2"              c="2nd person"/>
+    <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="nt"              c="Neuter"/>
+    <sdef n="ut"              c="Utrum"/>
+    <sdef n="f"               c="Feminine"/>
+    <sdef n="m"               c="Masculine"/>
+    <sdef n="un"              c="No gender"/>
+
+    <sdef n="sg"              c="Singular"/>
+    <sdef n="du"              c="Dual"/>
+    <sdef n="pl"              c="Plural"/>
+    <sdef n="sp"              c="Singular / plural"/>
+
+    <sdef n="ind"             c="Indefinite"/>
+    <sdef n="def"             c="Definite"/>
+
+    <sdef n="nom"             c="Nominative"/>
+    <sdef n="acc"             c="Accusative"/>
+    <sdef n="gen"             c="Genitive"/>
+
+    <sdef n="dem"             c="Demonstrative"/>
+    <sdef n="itg"             c="Question word / interrogative"/>
+    <sdef n="qnt"             c="Quantifier"/>
+    <sdef n="neg"             c="Negative"/>
+<!--
+    <sdef n="emph"            c="Emphatic"/>
+-->
+    <sdef n="tell"            c="Tell"/>
+
+    <sdef n="inf"             c="Infinitive"/>
+    <sdef n="pres"            c="Present"/>
+    <sdef n="imp"             c="Imperative"/>
+    <sdef n="pret"            c="Preterite"/>
+    <sdef n="pp"              c="Perfect participle"/>
+    <sdef n="pprs"            c="Present participle"/>
+    <sdef n="pasv"            c="Passive"/>
+    <sdef n="actv"            c="Active voice"/>
+
+    <sdef n="sint"            c="Synthetic (of adjectives)"/>
+    <sdef n="pst"             c="Positive"/>
+    <sdef n="comp"            c="Comparative"/>
+    <sdef n="sup"             c="Superlative"/>
+
+    <sdef n="steadw"             c="Stead waymark"/>
+
+
+    <sdef n="ord"             c="Ordinal"/>
+    <sdef n="acr"             c="Acronym"/>
+    <sdef n="unc"             c="Uncountable"/>
+
+    <sdef n="num"             c="Numeral"/>
+    <sdef n="sent"            c="Sentence end"/>
+    <sdef n="cm"              c="Comma"/>
+    <sdef n="apos"            c="Apostrophe"/>
+    <sdef n="guio"            c="Dash"/>
+    <sdef n="lpar"            c="Left parenthesis"/>
+    <sdef n="rpar"            c="Right parenthesis"/>
+    <sdef n="lquot"           c="Left quote"/>
+    <sdef n="rquot"           c="Right quote"/>
+
+    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
+    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+  </sdefs>
+
+  <pardefs>
+    <!-- Define paradigms within <pardef> here. -->
+         <pardef n="st/and__vblex">
+      <e i=""><p><l>and</l><r>and<s n="vblex"/><s n="inf"/></r></p></e>
+      <e i=""><p><l>and</l><r>and<s n="vblex"/><s n="pres"/></r></p></e>
+<!--
+      <e i=""><p><l>ands</l><r>and<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+-->
+<!--
+      <e i=""><p><l>ood</l><r>and<s n="vblex"/><s n="past"/></r></p></e>
+-->
+      <e i=""><p><l>ood</l><r>and<s n="vblex"/><s n="pp"/></r></p></e>
+<!--
+      <e i=""><p><l>anding</l><r>and<s n="vblex"/><s n="ger"/></r></p></e>
+-->
+    
+   <e i=""><p><l>anding</l><r>and<s n="vblex"/><s n="pprs"/></r></p></e>
+<!--
+      <e i=""><p><l>anding</l><r>and<s n="vblex"/><s n="subs"/></r></p></e>
+-->
+    </pardef>
+        <pardef n="noinf__t">
+      <e><p><l></l><r><s n="t"/><s n="attr"/></r></p></e>
+    </pardef>
+    <pardef n="reg__t">
+      <e><p><l></l><r><s n="t"/><s n="attr"/></r></p></e>
+      <e><p><l></l><r><s n="t"/><s n="sg"/></r></p></e>
+      <e><p><l>s</l><r><s n="t"/><s n="pl"/></r></p></e>
+    </pardef>
+        <pardef n="regOld__t">
+      <e><p><l></l><r><s n="t"/><s n="attr"/></r></p></e>
+      <e><p><l></l><r><s n="t"/><s n="sg"/></r></p></e>
+      <e><p><l>en</l><r><s n="t"/><s n="pl"/></r></p></e>
+    </pardef>
+   <pardef n="regE__t">
+      <e><p><l></l><r><s n="t"/><s n="attr"/></r></p></e>
+      <e><p><l></l><r><s n="t"/><s n="sg"/></r></p></e>
+      <e><p><l>es</l><r><s n="t"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+    
+    
+    <pardef n="noinf__vblex">
+      <e><p><l></l><r><s n="vblex"/></r></p></e>
+    </pardef> 
+    <pardef n="reg__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>s</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ed</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
+    <pardef n="penReg__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>es</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ed</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
+        <pardef n="d/ig__vblex">
+      <e><p><l>ig</l><r>ig<s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>igs</l><r>ig<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ug</l><r>ig<s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
+                <pardef n="eat__vblex">
+      <e><p><l></l><r>eat<s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>s</l><r>eat<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef> 
+                    <pardef n="ate__vblex">
+      <e><p><l></l><r>eat<s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
+    <pardef n="g/et__vblex">
+      <e><p><l>et</l><r>et<s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>ets</l><r>et<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ot</l><r>et<s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
+    
+            <pardef n="tmmood">
+      <e><p><l></l><r><s n="tmmood"/></r></p></e>
+    </pardef> 
+    <pardef n="tsuch">
+      <e><p><l></l><r><s n="tsuch"/></r></p></e>
+    </pardef> 
+    <pardef n="tw">
+      <e><p><l></l><r><s n="tw"/></r></p></e>
+    </pardef> 
+    <pardef n="tell">
+      <e><p><l></l><r><s n="tell"/></r></p></e>
+    </pardef> 
+        <pardef n="steadw">
+      <e><p><l></l><r><s n="steadw"/></r></p></e>
+    </pardef> 
+  </pardefs>
+
+  <section id="main" type="standard">
+    <!-- Define entries within <e> here. -->
+<!-- thing -->
+<e lm="anvil"><i>anvil</i><par n="reg__t"/></e>
+<e lm="hearse"><i>hearse</i><par n="reg__t"/></e>
+<e lm="hole"><i>hole</i><par n="reg__t"/></e>
+<e lm="shelter"><i>shelter</i><par n="reg__t"/></e>
+<e lm="pen"><i>pen</i><par n="reg__t"/></e>
+<e lm="cess"><i>cess</i><par n="noinf__t"/></e>
+<e lm="dung"><i>dung</i><par n="noinf__t"/></e>
+<e lm="shit"><i>shit</i><par n="noinf__t"/></e>
+<e lm="potatoes"><i>potatoes</i><par n="noinf__t"/></e>
+<e lm="bridge"><i>bridge</i><par n="reg__t"/></e>
+<e lm="eye"><i>eye</i><par n="reg__t"/></e>
+<e lm="attic"><i>attic</i><par n="reg__t"/></e>
+<e lm="hare"><i>hare</i><par n="reg__t"/></e>
+<e lm="badger"><i>badger</i><par n="reg__t"/></e>
+<e lm="beak"><i>beak</i><par n="reg__t"/></e>
+<e lm="stream"><i>stream</i><par n="reg__t"/></e>
+<e lm="puddle"><i>puddle</i><par n="reg__t"/></e>
+<e lm="flea"><i>flea</i><par n="reg__t"/></e>
+<e lm="latch"><i>latch</i><par n="regE__t"/></e>
+<e lm="calf"><i>calf</i><par n="reg__t"/></e>
+<e lm="pig"><i>pig</i><par n="reg__t"/></e>
+<e lm="toilet"><i>toilet</i><par n="reg__t"/></e>
+<e lm="maggot"><i>maggot</i><par n="reg__t"/></e>
+<e lm="tantrum"><i>tantrum</i><par n="reg__t"/></e>
+<e lm="girl"><i>girl</i><par n="reg__t"/></e>
+<e lm="boy"><i>boy</i><par n="reg__t"/></e>
+<e lm="snack"><i>snack</i><par n="reg__t"/></e>
+<e lm="mud"><i>mud</i><par n="noinf__t"/></e>
+<e lm="money"><i>money</i><par n="noinf__t"/></e>
+<e lm="shoe"><i>shoe</i><par n="reg__t"/></e>
+<e lm="tea"><i>tea</i><par n="reg__t"/></e>
+<!-- thing -->
+<!-- en-lanc_2 -->
+<e lm="toilet"><i>toilet</i><par n="reg__t"/></e>
+<e lm="woman"><i>woman</i><par n="noinf__t"/></e>
+<e lm="weasand"><i>weasand</i><par n="reg__t"/></e>
+<e lm="clothes"><i>clothes</i><par n="noinf__t"/></e>
+<e lm="people"><i>people</i><par n="noinf__t"/></e>
+<!-- thing -->
+<!-- en-lanc_3 -->
+<e lm="police"><i>police</i><par n="noinf__t"/></e>
+<e lm="bailiff"><i>bailiff</i><par n="noinf__t"/></e>
+<e lm="tantrum"><i>tantrum</i><par n="reg__t"/></e>
+<e lm="breeches"><i>breeches</i><par n="noinf__t"/></e>
+<e lm="trousers"><i>trousers</i><par n="noinf__t"/></e>
+<e lm="broken"><i>broken</i><par n="noinf__t"/></e>
+<e lm="sandwich"><i>sandwich</i><par n="noinf__t"/></e>
+<e lm="devil"><i>devil</i><par n="noinf__t"/></e>
+<e lm="callous"><i>callous</i><par n="reg__t"/></e>
+<e lm="bastard"><i>bastard</i><par n="noinf__t"/></e>
+<e lm="mouth"><i>mouth</i><par n="reg__t"/></e>
+<e lm="wife"><i>wife</i><par n="reg__t"/></e>
+<e lm="boss"><i>boss</i><par n="regE__t"/></e>
+<e lm="head"><i>head</i><par n="reg__t"/></e>
+<e lm="ache"><i>ache</i><par n="noinf__t"/></e>
+<e lm="ear"><i>ear</i><par n="reg__t"/></e>
+<e lm="cold"><i>cold</i><par n="noinf__t"/></e>
+<e lm="sense"><i>sense</i><par n="noinf__t"/></e>
+
+<!-- thing-wide -->
+<e lm="he"><i>he</i><par n="tw"/></e>
+<e lm="she"><i>she</i><par n="tw"/></e>
+<e lm="you"><i>you</i><par n="tw"/></e>
+<e lm="we"><i>we</i><par n="tw"/></e>
+<e lm="anything"><i>anything</i><par n="tw"/></e>
+<e lm="nothing"><i>nothing</i><par n="tw"/></e>
+<e lm="something"><i>something</i><par n="tw"/></e>
+<e lm="other"><i>other</i><par n="tw"/></e>
+<!-- thing-wide -->
+<!-- en-lanc_3 -->
+<e lm="myself"><i>myself</i><par n="tw"/></e>
+<e lm="we"><i>we</i><par n="tw"/></e>
+<e lm="there"><i>there</i><par n="tw"/></e>
+
+
+<!-- thing-suchness -->
+<e lm="fat"><i>fat</i><par n="tsuch"/></e>
+<e lm="large"><i>large</i><par n="tsuch"/></e>
+<e lm="a lot"><i>a<b/>lot</i><par n="tsuch"/></e>
+<e lm="good"><i>good</i><par n="tsuch"/></e>
+<e lm="very"><i>very</i><par n="tsuch"/></e>
+<e lm="foolish"><i>foolish</i><par n="tsuch"/></e>
+<e lm="stupid"><i>stupid</i><par n="tsuch"/></e>
+<e lm="little"><i>little</i><par n="tsuch"/></e>
+<e lm="old"><i>old</i><par n="tsuch"/></e>
+<e lm="leaning"><i>leaning</i><par n="tsuch"/></e>
+<e lm="tipped"><i>tipped</i><par n="tsuch"/></e>
+<e lm="tilted"><i>tilted</i><par n="tsuch"/></e>
+<!-- thing-suchness -->
+<!-- en-lanc_2 -->
+<e lm="pregnant"><i>pregnant</i><par n="tsuch"/></e>
+<!-- thing-suchness -->
+<!-- en-lanc_3 -->
+<e lm="foolish"><i>foolish</i><par n="tsuch"/></e>
+<e lm="glad"><i>glad</i><par n="tsuch"/></e>
+
+
+<!-- tell -->
+<e lm="no"><i>no</i><par n="tell"/></e>
+<e lm="yes"><i>yes</i><par n="tell"/></e>
+
+
+<!-- time -->
+<e lm="are"><i>are</i><par n="noinf__vblex"/></e>
+<e lm="earn"><i>earn</i><par n="reg__vblex"/></e>
+<e lm="beat"><i>beat</i><par n="noinf__vblex"/></e>
+<e lm="press"><i>press</i><par n="penReg__vblex"/></e>
+<e lm="thrash"><i>thrash</i><par n="penReg__vblex"/></e>
+<e lm="smack"><i>smack</i><par n="reg__vblex"/></e>
+<e lm="scream"><i>scream</i><par n="reg__vblex"/></e>
+<e lm="understand"><i>understand</i><par n="reg__vblex"/></e>
+<e lm="look"><i>look</i><par n="reg__vblex"/></e>
+<e lm="watch"><i>watch</i><par n="reg__vblex"/></e>
+<e lm="mock"><i>mock</i><par n="reg__vblex"/></e>
+<e lm="water"><i>water</i><par n="reg__vblex"/></e>
+<e lm="soak"><i>soak</i><par n="reg__vblex"/></e>
+<e lm="worry"><i>worry</i><par n="reg__vblex"/></e>
+<e lm="dig"><i>d</i><par n="d/ig__vblex"/></e>
+<e lm="weed"><i>weed</i><par n="reg__vblex"/></e>
+<e lm="get"><i>g</i><par n="g/et__vblex"/></e>
+<e lm="eat"><i>eat</i><par n="eat__vblex"/></e>
+<e lm="ate"><i>ate</i><par n="ate__vblex"/></e>
+<!-- time -->
+<!-- en-lanc_2 -->
+<e lm="strike"><i>strike</i><par n="reg__vblex"/></e>
+<e lm="work"><i>work</i><par n="reg__vblex"/></e>
+<!-- en-lanc_3 -->
+<e lm="strike"><i>strike</i><par n="reg__vblex"/></e>
+<e lm="fix"><i>fix</i><par n="reg__vblex"/></e>
+<e lm="exhaust"><i>exhaust</i><par n="reg__vblex"/></e>
+<e lm="killed"><i>killed</i><par n="noinf__vblex"/></e>
+<e lm="annoy"><i>annoy</i><par n="reg__vblex"/></e>
+<e lm="bother"><i>bother</i><par n="reg__vblex"/></e>
+<e lm="must"><i>must</i><par n="noinf__vblex"/></e>
+<e lm="tire"><i>tire</i><par n="reg__vblex"/></e>
+<e lm="exhaust"><i>exhaust</i><par n="reg__vblex"/></e>
+
+
+
+<!-- time-mood -->
+<e lm="must"><i>must</i><par n="tmmood"/></e>
+<e lm="maybe"><i>maybe</i><par n="tmmood"/></e>
+
+<!-- stead-way -->
+<e lm="between"><i>between</i><par n="steadw"/></e>
+<!-- stead-way -->
+<!-- en-lanc_2 -->
+<e lm="as"><i>as</i><par n="steadw"/></e>
+<!-- en-lanc_3 -->
+<e lm="with"><i>with</i><par n="steadw"/></e>
+<e lm="while"><i>while</i><par n="steadw"/></e>
+  </section>
+
+  <section id="final" type="inconditional">
+    <e><re>[.\?;:!…¿¶]</re><p><l></l><r><s n="sent"/></r></p></e>
+    <e><re>,</re>          <p><l></l><r><s n="cm"/></r></p></e>
+  </section>
+
+</dictionary>
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/Monodix_basics
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Monolingual_dictionaries
+-->
