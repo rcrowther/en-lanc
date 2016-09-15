@@ -393,6 +393,7 @@
 <e lm="swipper"><i>swipper</i><par n="reg__t"/></e>
 <e lm="sunk"><i>sunk</i><par n="noinf__t"/></e>
 <e lm="woo"><i>woo</i><par n="noinf__t"/></e>
+<e lm="flay"><i>flay</i><par n="noinf__t"/></e>
 
 <!-- thing-wide -->
 <!-- en-lanc_2 -->
@@ -413,7 +414,6 @@
 <e lm="forrud"><i>forrud</i><par n="tsuch"/></e>
 <e lm="eiron"><i>eiron</i><par n="tsuch"/></e>
 <e lm="feaw"><i>feaw</i><par n="tsuch"/></e>
-<e lm="flay"><i>flay</i><par n="tsuch"/></e>
 <e lm="hacklt"><i>hacklt</i><par n="tsuch"/></e>
 <e lm="muzzy"><i>muzzy</i><par n="tsuch"/></e>
 <e lm="spare"><i>spare</i><par n="tsuch"/></e>
@@ -444,7 +444,7 @@
 <e lm="dandle"><i>dandle</i><par n="reg__vblex"/></e>
 <e lm="diddle"><i>diddle</i><par n="reg__vblex"/></e>
 <e lm="don"><i>don</i><par n="noinf__vblex"/></e>
-<e lm="fagged"><i>fagged</i><par n="noinf__vblex"/></e>
+<e lm="fag"><i>fag</i><par n="dblG__vblex"/></e>
 <e lm="gab"><i>gab</i><par n="reg__vblex"/></e>
 <e lm="lip"><i>lip</i><par n="reg__vblex"/></e>
 <e lm="huff"><i>huff</i><par n="reg__vblex"/></e>
@@ -461,6 +461,8 @@
 <e lm="snuff"><i>snuff</i><par n="reg__vblex"/></e>
 <e lm="slur"><i>slur</i><par n="dblR__vblex"/></e>
 <e lm="wesh"><i>wesh</i><par n="reg__vblex"/></e>
+
+
 
 <!-- thing -->
 <!-- en-lanc_3 -->
