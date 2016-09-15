@@ -234,7 +234,10 @@
 
   <section id="main" type="standard">
     <!-- Define entries within <e> here. -->
+
+
 <!-- thing -->
+<!-- en-lanc_1 -->
 <e lm="forge"><i>forge</i><par n="reg__t"/></e>
 <e lm="bier"><i>bier</i><par n="reg__t"/></e>
 <e lm="borne"><i>borne</i><par n="reg__t"/></e>
@@ -246,6 +249,7 @@
 <e lm="shite"><i>shite</i><par n="noinf__t"/></e>
 <e lm="cac"><i>cac</i><par n="noinf__t"/></e>
 <e lm="tatties"><i>tatties</i><par n="noinf__t"/></e>
+<e lm="tatty"><i>tatty</i><par n="noinf__t"/></e>
 <e lm="brig"><i>brig</i><par n="reg__t"/></e>
 <e lm="ee"><i>ee</i><par n="regOld__t"/></e>
 <e lm="garrett"><i>garrett</i><par n="reg__t"/></e>
@@ -268,13 +272,94 @@
 <e lm="brass"><i>brass</i><par n="noinf__t"/></e>
 <e lm="sho"><i>sho</i><par n="regOld__t"/></e>
 <e lm="brew"><i>brew</i><par n="reg__t"/></e>
+
+<!-- thing-wide -->
+<!-- en-lanc_1 -->
+<e lm="himself"><i>himself</i><par n="tw"/></e>
+<e lm="hissel"><i>hissel</i><par n="tw"/></e>
+<e lm="herself"><i>herself</i><par n="tw"/></e>
+<e lm="thou"><i>thou</i><par n="tw"/></e>
+<e lm="us"><i>us</i><par n="tw"/></e>
+<e lm="owt"><i>owt</i><par n="tw"/></e>
+<e lm="nowt"><i>nowt</i><par n="tw"/></e>
+<e lm="summat"><i>summat</i><par n="tw"/></e>
+<e lm="tuther"><i>tuther</i><par n="tw"/></e>
+
+<!-- thing-suchness -->
+<!-- en-lanc_1 -->
+<e lm="brosen"><i>brosen</i><par n="tsuch"/></e>
+<e lm="a deal"><i>a<b/>deal</i><par n="tsuch"/></e>
+<e lm="gradely"><i>gradely</i><par n="tsuch"/></e>
+<e lm="puddled"><i>puddled</i><par n="tsuch"/></e>
+<e lm="mickle"><i>mickle</i><par n="tsuch"/></e>
+<e lm="smidgen"><i>smidgen</i><par n="tsuch"/></e>
+<e lm="a mite"><i>a<b/>mite</i><par n="tsuch"/></e>
+<e lm="owd"><i>owd</i><par n="tsuch"/></e>
+<e lm="keck"><i>keck</i><par n="tsuch"/></e>
+<e lm="cack-handed"><i>cack-handed</i><par n="tsuch"/></e>
+
+<!-- tell -->
+<!-- en-lanc_1 -->
+<e lm="nay"><i>nay</i><par n="tell"/></e>
+<e lm="aye"><i>aye</i><par n="tell"/></e>
+
+<!-- stead-way -->
+<!-- en-lanc_1 -->
+<e lm="betwixt"><i>betwixt</i><par n="steadw"/></e>
+
+<!-- time -->
+<!-- en-lanc_1 -->
+<e lm="art"><i>art</i><par n="noinf__vblex"/></e>
+<e lm="make"><i>ma</i><par n="ma/ke__vblex"/></e>
+<e lm="cap"><i>cap</i><par n="dblP__vblex"/></e>
+<e lm="throng"><i>throng</i><par n="reg__vblex"/></e>
+<e lm="bray"><i>bray</i><par n="reg__vblex"/></e>
+<e lm="skrike"><i>skrike</i><par n="reg__vblex"/></e>
+<e lm="ken"><i>ken</i><par n="reg__vblex"/></e>
+<e lm="sken"><i>sken</i><par n="dblN__vblex"/></e>
+<e lm="skit"><i>skit</i><par n="dblT__vblex"/></e>
+<e lm="deg"><i>deg</i><par n="dblG__vblex"/></e>
+<e lm="witchett"><i>witchett</i><par n="reg__vblex"/></e>
+<e lm="moider"><i>moider</i><par n="reg__vblex"/></e>
+<e lm="delve"><i>delve</i><par n="regE__vblex"/></e>
+<e lm="lowk"><i>lowk</i><par n="reg__vblex"/></e>
+<e lm="get"><i>g</i><par n="g/etOld__vblex"/></e>
+<e lm="et"><i>et</i><par n="et/Old__vblex"/></e>
+<e lm="et"><i>et</i><par n="et/Old__vblex"/></e>
+
+<!-- time-mood -->
+<!-- en-lanc_1 -->
+<e lm="mun"><i>mun</i><par n="tmmood"/></e>
+<e lm="happen"><i>happen</i><par n="tmmood"/></e>
+<e lm="marry"><i>marry</i><par n="tmmood"/></e>
+
+
+
 <!-- thing -->
 <!-- en-lanc_2 -->
 <e lm="tippler"><i>tippler</i><par n="reg__t"/></e>
 <e lm="lady"><i>lady</i><par n="noinf__t"/></e>
-<e lm="gut"><i>gut</i><par n="reg__t"/></e>
+<e lm="weasand"><i>weasand</i><par n="reg__t"/></e>
 <e lm="rags"><i>rags</i><par n="noinf__t"/></e>
 <e lm="folks"><i>folks</i><par n="noinf__t"/></e>
+
+<!-- thing-wide -->
+<!-- en-lanc_2 -->
+
+<!-- thing-suchness -->
+<!-- en-lanc_2 -->
+<e lm="in the family way"><i>in<b/>the<b/>family<b/>way</i><par n="tsuch"/></e>
+
+<!-- stead-way -->
+<!-- en-lanc_2 -->
+<e lm="for"><i>for</i><par n="steadw"/></e>
+
+<!-- time -->
+<!-- en-lanc_2 -->
+<e lm="clout"><i>clout</i><par n="reg__vblex"/></e>
+<e lm="toil"><i>toil</i><par n="reg__vblex"/></e>
+
+
 <!-- thing -->
 <!-- en-lanc_3 -->
 <e lm="bayly"><i>bayly</i><par n="noinf__t"/></e>
@@ -294,77 +379,17 @@
 <e lm="nesh"><i>nesh</i><par n="noinf__t"/></e>
 <e lm="nouse"><i>nouse</i><par n="noinf__t"/></e>
 
-
-<!-- thing-wide -->
-<e lm="hissen"><i>hissen</i><par n="tw"/></e>
-<e lm="himself"><i>himself</i><par n="tw"/></e>
-<e lm="hissel"><i>hissel</i><par n="tw"/></e>
-<e lm="hoo"><i>hoo</i><par n="tw"/></e>
-<e lm="herself"><i>herself</i><par n="tw"/></e>
-<e lm="thee"><i>thee</i><par n="tw"/></e>
-<e lm="thou"><i>thou</i><par n="tw"/></e>
-<e lm="us"><i>us</i><par n="tw"/></e>
-<e lm="owt"><i>owt</i><par n="tw"/></e>
-<e lm="nowt"><i>nowt</i><par n="tw"/></e>
-<e lm="summat"><i>summat</i><par n="tw"/></e>
-<e lm="tuther"><i>tuther</i><par n="tw"/></e>
 <!-- thing-wide -->
 <!-- en-lanc_3 -->
 <e lm="mysen"><i>mysen</i><par n="tw"/></e>
 <e lm="us"><i>us</i><par n="tw"/></e>
 <e lm="yon"><i>yon</i><par n="tw"/></e>
 
-
-<!-- thing-suchness -->
-<e lm="brosen"><i>brosen</i><par n="tsuch"/></e>
-<e lm="a deal"><i>a<b/>deal</i><par n="tsuch"/></e>
-<e lm="gradely"><i>gradely</i><par n="tsuch"/></e>
-<e lm="puddled"><i>puddled</i><par n="tsuch"/></e>
-<e lm="mickle"><i>mickle</i><par n="tsuch"/></e>
-<e lm="smidgen"><i>smidgen</i><par n="tsuch"/></e>
-<e lm="a mite"><i>a<b/>mite</i><par n="tsuch"/></e>
-<e lm="owd"><i>owd</i><par n="tsuch"/></e>
-<e lm="keck"><i>keck</i><par n="tsuch"/></e>
-<!-- thing-suchness -->
-<!-- en-lanc_2 -->
-<e lm="in the family way"><i>in<b/>the<b/>family<b/>way</i><par n="tsuch"/></e>
 <!-- thing-suchness -->
 <!-- en-lanc_3 -->
 <e lm="gormless"><i>gormless</i><par n="tsuch"/></e>
 <e lm="fain"><i>fain</i><par n="tsuch"/></e>
 
-
-<!-- tell -->
-<e lm="nay"><i>nay</i><par n="tell"/></e>
-<e lm="aye"><i>aye</i><par n="tell"/></e>
-
-
-
-
-<!-- time -->
-<e lm="art"><i>art</i><par n="noinf__vblex"/></e>
-<e lm="make"><i>ma</i><par n="ma/ke__vblex"/></e>
-<e lm="cap"><i>cap</i><par n="dblP__vblex"/></e>
-<e lm="throng"><i>throng</i><par n="reg__vblex"/></e>
-<e lm="bray"><i>bray</i><par n="reg__vblex"/></e>
-<e lm="skelp"><i>skelp</i><par n="reg__vblex"/></e>
-<e lm="skrike"><i>skrike</i><par n="reg__vblex"/></e>
-<e lm="ken"><i>ken</i><par n="reg__vblex"/></e>
-<e lm="sken"><i>sken</i><par n="dblN__vblex"/></e>
-<e lm="sken"><i>sken</i><par n="dblN__vblex"/></e>
-<e lm="skit"><i>skit</i><par n="dblT__vblex"/></e>
-<e lm="deg"><i>deg</i><par n="dblG__vblex"/></e>
-<e lm="witchett"><i>witchett</i><par n="reg__vblex"/></e>
-<e lm="moider"><i>moider</i><par n="reg__vblex"/></e>
-<e lm="delve"><i>delve</i><par n="regE__vblex"/></e>
-<e lm="lowk"><i>lowk</i><par n="reg__vblex"/></e>
-<e lm="get"><i>g</i><par n="g/etOld__vblex"/></e>
-<e lm="et"><i>et</i><par n="et/Old__vblex"/></e>
-<e lm="et"><i>et</i><par n="et/Old__vblex"/></e>
-<!-- time -->
-<!-- en-lanc_2 -->
-<e lm="clout"><i>clout</i><par n="reg__vblex"/></e>
-<e lm="toil"><i>toil</i><par n="reg__vblex"/></e>
 <!-- time -->
 <!-- en-lanc_3 -->
 <e lm="clout"><i>clout</i><par n="reg__vblex"/></e>
@@ -374,17 +399,8 @@
 <e lm="moither"><i>moither</i><par n="reg__vblex"/></e>
 <e lm="mun"><i>mun</i><par n="noinf__vblex"/></e>
 <e lm="wack"><i>wack</i><par n="reg__vblex"/></e>
+<e lm="were"><i>were</i><par n="noinf__vblex"/></e>
 
-<!-- time-mood -->
-<e lm="mun"><i>mun</i><par n="tmmood"/></e>
-<e lm="happen"><i>happen</i><par n="tmmood"/></e>
-<e lm="marry"><i>marry</i><par n="tmmood"/></e>
-
-<!-- stead-way -->
-<e lm="betwixt"><i>betwixt</i><par n="steadw"/></e>
-<!-- stead-way -->
-<!-- en-lanc_2 -->
-<e lm="for"><i>for</i><par n="steadw"/></e>
 <!-- stead-way -->
 <!-- en-lanc_3 -->
 <e lm="wi"><i>wi</i><par n="steadw"/></e>

@@ -124,92 +124,118 @@
    <section id="main" type="standard">
 	   
       <!-- Define entries within <e> here. -->
- <!-- thing -->
+
+
+<!-- thing -->
+<!-- en-lanc_1 -->
 <e><p><l>anvil<s n="t"/></l><r>forge<s n="t"/></r></p></e>
 <e slr="bier D"><p><l>hearse<s n="t"/></l><r>bier<s n="t"/></r></p></e>
 <e slr="borne"><p><l>hearse<s n="t"/></l><r>borne<s n="t"/></r></p></e>
 <e><p><l>hole<s n="t"/></l><r>oyle<s n="t"/></r></p></e>
-<e><p><l>shelter<s n="t"/></l><r>lowse<s n="t"/></r></p></e>
-<e><p><l>pen<s n="t"/></l><r>box<s n="t"/></r></p></e>
-<e><p><l>cess<s n="t"/></l><r>midden<s n="t"/></r></p></e>
-<e><p><l>dung<s n="t"/></l><r>muck<s n="t"/></r></p></e>
+<e srl="shelter D"><p><l>shelter<s n="t"/></l><r>lowse<s n="t"/></r></p></e>
+<e srl="hut"><p><l>hut<s n="t"/></l><r>lowse<s n="t"/></r></p></e>
+<e srl="hutch"><p><l>hutch<s n="t"/></l><r>lowse<s n="t"/></r></p></e>
+<e srl="shack"><p><l>shack<s n="t"/></l><r>lowse<s n="t"/></r></p></e>
+<e srl="shanty"><p><l>shanty<s n="t"/></l><r>lowse<s n="t"/></r></p></e>
+<e srl="hut"><p><l>hut<s n="t"/></l><r>lowse<s n="t"/></r></p></e>
+<e srl="pen D"><p><l>pen<s n="t"/></l><r>box<s n="t"/></r></p></e>
+<e srl="sty"><p><l>sty<s n="t"/></l><r>box<s n="t"/></r></p></e>
+<e srl="enclosure"><p><l>enclosure<s n="t"/></l><r>box<s n="t"/></r></p></e>
+<e srl="sheepcote"><p><l>sheepcote<s n="t"/></l><r>box<s n="t"/></r></p></e>
+<e srl="sheepfold"><p><l>sheepfold<s n="t"/></l><r>box<s n="t"/></r></p></e>
+<e srl="sheep pen"><p><l>sheep<b/>pen<s n="t"/></l><r>box<s n="t"/></r></p></e>
+<e srl="sheepcote"><p><l>sheepcote<s n="t"/></l><r>box<s n="t"/></r></p></e>
+<e srl="cess D"><p><l>cess<s n="t"/></l><r>midden<s n="t"/></r></p></e>
+<e srl="crap"><p><l>crap<s n="t"/></l><r>midden<s n="t"/></r></p></e>
+<e srl="faecal matter"><p><l>faecal<b/>matter<s n="t"/></l><r>midden<s n="t"/></r></p></e>
+<e srl="faeces"><p><l>faeces<s n="t"/></l><r>midden<s n="t"/></r></p></e>
+<e srl="ordure"><p><l>ordure<s n="t"/></l><r>midden<s n="t"/></r></p></e>
+<e srl="poop"><p><l>poop<s n="t"/></l><r>midden<s n="t"/></r></p></e>
+<e srl="stool"><p><l>stool<s n="t"/></l><r>midden<s n="t"/></r></p></e>
+<e srl="dung D"><p><l>dung<s n="t"/></l><r>muck<s n="t"/></r></p></e>
+<e srl="cow chip"><p><l>cow<b/>chip<s n="t"/></l><r>muck<s n="t"/></r></p></e>
+<e srl="cow dung"><p><l>cow<b/>dung<s n="t"/></l><r>muck<s n="t"/></r></p></e>
+<e srl="droppings"><p><l>droppings<s n="t"/></l><r>muck<s n="t"/></r></p></e>
 <e slr="shite D"><p><l>shit<s n="t"/></l><r>shite<s n="t"/></r></p></e>
 <e slr="cac"><p><l>shit<s n="t"/></l><r>cac<s n="t"/></r></p></e>
-<e><p><l>potatoes<s n="t"/></l><r>tatties<s n="t"/></r></p></e>
-<e><p><l>bridge<s n="t"/></l><r>brig<s n="t"/></r></p></e>
-<e><p><l>eye<s n="t"/></l><r>ee<s n="t"/></r></p></e>
-<e><p><l>attic<s n="t"/></l><r>garrett<s n="t"/></r></p></e>
-<e><p><l>hare<s n="t"/></l><r>neddy<s n="t"/></r></p></e>
+<e srl="potatoes D"><p><l>potatoes<s n="t"/></l><r>tatties<s n="t"/></r></p></e>
+<e srl="spuds"><p><l>spuds<s n="t"/></l><r>tatties<s n="t"/></r></p></e>
+<e srl="taters"><p><l>taters<s n="t"/></l><r>tatties<s n="t"/></r></p></e>
+<e srl="potato D"><p><l>potato<s n="t"/></l><r>tatty<s n="t"/></r></p></e>
+<e srl="murphy potato"><p><l>murphy<b/>potato<s n="t"/></l><r>tatty<s n="t"/></r></p></e>
+<e srl="spud"><p><l>spud<s n="t"/></l><r>tatty<s n="t"/></r></p></e>
+<e srl="tater"><p><l>tater<s n="t"/></l><r>tatty<s n="t"/></r></p></e>
+<e srl="white potato"><p><l>white<b/>potato<s n="t"/></l><r>tatty<s n="t"/></r></p></e>
+<e srl="bridge D"><p><l>bridge<s n="t"/></l><r>brig<s n="t"/></r></p></e>
+<e srl="drawbridge"><p><l>drawbridge<s n="t"/></l><r>brig<s n="t"/></r></p></e>
+<e srl="span"><p><l>span<s n="t"/></l><r>brig<s n="t"/></r></p></e>
+<e srl="eye D"><p><l>eye<s n="t"/></l><r>ee<s n="t"/></r></p></e>
+<e srl="oculus"><p><l>oculus<s n="t"/></l><r>ee<s n="t"/></r></p></e>
+<e srl="optic"><p><l>optic<s n="t"/></l><r>ee<s n="t"/></r></p></e>
+<e srl="attic D"><p><l>attic<s n="t"/></l><r>garrett<s n="t"/></r></p></e>
+<e srl="loft"><p><l>loft<s n="t"/></l><r>garrett<s n="t"/></r></p></e>
+<e srl="hare D"><p><l>hare<s n="t"/></l><r>neddy<s n="t"/></r></p></e>
+<e srl="coney"><p><l>coney<s n="t"/></l><r>neddy<s n="t"/></r></p></e>
 <e><p><l>badger<s n="t"/></l><r>brock<s n="t"/></r></p></e>
 <e><p><l>beak<s n="t"/></l><r>neb<s n="t"/></r></p></e>
-<e><p><l>stream<s n="t"/></l><r>beck<s n="t"/></r></p></e>
+<e srl="stream D"><p><l>stream<s n="t"/></l><r>beck<s n="t"/></r></p></e>
+<e srl="creak"><p><l>creak<s n="t"/></l><r>beck<s n="t"/></r></p></e>
+<e srl="brook"><p><l>brook<s n="t"/></l><r>beck<s n="t"/></r></p></e>
 <e><p><l>puddle<s n="t"/></l><r>dub<s n="t"/></r></p></e>
 <e><p><l>flea<s n="t"/></l><r>lop<s n="t"/></r></p></e>
-<e><p><l>latch<s n="t"/></l><r>sneck<s n="t"/></r></p></e>
+<e srl="latch D"><p><l>latch<s n="t"/></l><r>sneck<s n="t"/></r></p></e>
+<e srl="catch"><p><l>catch<s n="t"/></l><r>sneck<s n="t"/></r></p></e>
 <e><p><l>calf<s n="t"/></l><r>stirk<s n="t"/></r></p></e>
-<e><p><l>pig<s n="t"/></l><r>gilt<s n="t"/></r></p></e>
-<e><p><l>toilet<s n="t"/></l><r>privvy<s n="t"/></r></p></e>
+<e srl="pig D"><p><l>pig<s n="t"/></l><r>gilt<s n="t"/></r></p></e>
+<e srl="hog"><p><l>hog<s n="t"/></l><r>gilt<s n="t"/></r></p></e>
+<e srl="toilet D"><p><l>toilet<s n="t"/></l><r>privvy<s n="t"/></r></p></e>
+<e srl="water closet"><p><l>water<b/>closet<s n="t"/></l><r>privvy<s n="t"/></r></p></e>
+<e srl="closet"><p><l>closet<s n="t"/></l><r>privvy<s n="t"/></r></p></e>
+<e srl="john"><p><l>john<s n="t"/></l><r>privvy<s n="t"/></r></p></e>
+<e srl="lav"><p><l>lav<s n="t"/></l><r>privvy<s n="t"/></r></p></e>
+<e srl="lavatory"><p><l>lavatory<s n="t"/></l><r>privvy<s n="t"/></r></p></e>
 <e><p><l>maggot<s n="t"/></l><r>mawk<s n="t"/></r></p></e>
-<e><p><l>tantrum<s n="t"/></l><r>mard<s n="t"/></r></p></e>
-<e><p><l>girl<s n="t"/></l><r>lass<s n="t"/></r></p></e>
+<e srl="tantrum D"><p><l>tantrum<s n="t"/></l><r>mard<s n="t"/></r></p></e>
+<e srl="paddy"><p><l>paddy<s n="t"/></l><r>mard<s n="t"/></r></p></e>
+<e srl="girl D"><p><l>girl<s n="t"/></l><r>lass<s n="t"/></r></p></e>
+<e srl="young lady"><p><l>young<b/>lady<s n="t"/></l><r>lass<s n="t"/></r></p></e>
+<e srl="young woman"><p><l>young<b/>woman<s n="t"/></l><r>lass<s n="t"/></r></p></e>
 <e><p><l>boy<s n="t"/></l><r>lad<s n="t"/></r></p></e>
 <e><p><l>snack<s n="t"/></l><r>baggin<s n="t"/></r></p></e>
 <e><p><l>mud<s n="t"/></l><r>clags<s n="t"/></r></p></e>
-<e><p><l>money<s n="t"/></l><r>brass<s n="t"/></r></p></e>
-<e><p><l>shoe<s n="t"/></l><r>sho<s n="t"/></r></p></e>
-<e><p><l>tea<s n="t"/></l><r>brew<s n="t"/></r></p></e>
-<!-- thing -->
-<!-- en-lanc_2 -->
-<e><p><l>toilet<s n="t"/></l><r>tippler<s n="t"/></r></p></e>
-<e><p><l>woman<s n="t"/></l><r>lady<s n="t"/></r></p></e>
-<e><p><l>weasand<s n="t"/></l><r>gut<s n="t"/></r></p></e>
-<e><p><l>clothes<s n="t"/></l><r>rags<s n="t"/></r></p></e>
-<e><p><l>people<s n="t"/></l><r>folks<s n="t"/></r></p></e>
-<!-- thing -->
-<!-- en-lanc_3 -->
-<e srl="police D"><p><l>police<s n="t"/></l><r>bayly<s n="t"/></r></p></e>
-<e srl="bailiff"><p><l>bailiff<s n="t"/></l><r>bayly<s n="t"/></r></p></e>
-<e><p><l>tantrum<s n="t"/></l><r>benny<s n="t"/></r></p></e>
-<e srl="breeches D"><p><l>breeches<s n="t"/></l><r>britchies<s n="t"/></r></p></e>
-<e srl="trousers"><p><l>trousers<s n="t"/></l><r>britchies<s n="t"/></r></p></e>
-<e><p><l>broken<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
-<e><p><l>sandwich<s n="t"/></l><r>butty<s n="t"/></r></p></e>
-<e><p><l>devil<s n="t"/></l><r>dule<s n="t"/></r></p></e>
-<e><p><l>callous<s n="t"/></l><r>seg<s n="t"/></r></p></e>
-<e><p><l>bastard<s n="t"/></l><r>git<s n="t"/></r></p></e>
-<e><p><l>mouth<s n="t"/></l><r>gob<s n="t"/></r></p></e>
-<e><p><l>wife<s n="t"/></l><r>missus<s n="t"/></r></p></e>
-<e><p><l>boss<s n="t"/></l><r>master<s n="t"/></r></p></e>
-<e><p><l>head<s n="t"/></l><r>yed<s n="t"/></r></p></e>
-<e><p><l>ache<s n="t"/></l><r>warch<s n="t"/></r></p></e>
-<e><p><l>ear<s n="t"/></l><r>lug<s n="t"/></r></p></e>
-<e><p><l>cold<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
-<e><p><l>sense<s n="t"/></l><r>nouse<s n="t"/></r></p></e>
-
+<e srl="money D"><p><l>money<s n="t"/></l><r>brass<s n="t"/></r></p></e>
+<e srl="lolly"><p><l>lolly<s n="t"/></l><r>brass<s n="t"/></r></p></e>
+<e srl="loot"><p><l>loot<s n="t"/></l><r>brass<s n="t"/></r></p></e>
+<e srl="lucre"><p><l>lucre<s n="t"/></l><r>brass<s n="t"/></r></p></e>
+<e srl="shoe D"><p><l>shoe<s n="t"/></l><r>sho<s n="t"/></r></p></e>
+<e srl="sneaker"><p><l>sneaker<s n="t"/></l><r>sho<s n="t"/></r></p></e>
+<e srl="work shoe"><p><l>work<b/>shoe<s n="t"/></l><r>sho<s n="t"/></r></p></e>
+<e srl="brogue"><p><l>brogue<s n="t"/></l><r>sho<s n="t"/></r></p></e>
+<e srl="tea D"><p><l>tea<s n="t"/></l><r>brew<s n="t"/></r></p></e>
+<e srl="char"><p><l>char<s n="t"/></l><r>brew<s n="t"/></r></p></e>
 
 <!-- thing-wide -->
-<e slr="hissen D"><p><l>he<s n="tw"/></l><r>hissen<s n="tw"/></r></p></e>
-<e slr="himself"><p><l>he<s n="tw"/></l><r>himself<s n="tw"/></r></p></e>
+<!-- en-lanc_1 -->
+<e slr="himself D"><p><l>he<s n="tw"/></l><r>himself<s n="tw"/></r></p></e>
 <e slr="hissel"><p><l>he<s n="tw"/></l><r>hissel<s n="tw"/></r></p></e>
-<e slr="hoo D"><p><l>she<s n="tw"/></l><r>hoo<s n="tw"/></r></p></e>
-<e slr="herself"><p><l>she<s n="tw"/></l><r>herself<s n="tw"/></r></p></e>
-<e slr="thee D"><p><l>you<s n="tw"/></l><r>thee<s n="tw"/></r></p></e>
-<e slr="thou"><p><l>you<s n="tw"/></l><r>thou<s n="tw"/></r></p></e>
+<e><p><l>she<s n="tw"/></l><r>herself<s n="tw"/></r></p></e>
+<e><p><l>you<s n="tw"/></l><r>thou<s n="tw"/></r></p></e>
 <e><p><l>we<s n="tw"/></l><r>us<s n="tw"/></r></p></e>
 <e><p><l>anything<s n="tw"/></l><r>owt<s n="tw"/></r></p></e>
 <e><p><l>nothing<s n="tw"/></l><r>nowt<s n="tw"/></r></p></e>
 <e><p><l>something<s n="tw"/></l><r>summat<s n="tw"/></r></p></e>
 <e><p><l>other<s n="tw"/></l><r>tuther<s n="tw"/></r></p></e>
-<!-- thing-wide -->
-<!-- en-lanc_3 -->
-<e><p><l>myself<s n="tw"/></l><r>mysen<s n="tw"/></r></p></e>
-<e><p><l>we<s n="tw"/></l><r>us<s n="tw"/></r></p></e>
-<e><p><l>there<s n="tw"/></l><r>yon<s n="tw"/></r></p></e>
-
 
 <!-- thing-suchness -->
+<!-- en-lanc_1 -->
 <e srl="fat D"><p><l>fat<s n="tsuch"/></l><r>brosen<s n="tsuch"/></r></p></e>
 <e srl="large"><p><l>large<s n="tsuch"/></l><r>brosen<s n="tsuch"/></r></p></e>
+<e srl="heavyset"><p><l>heavyset<s n="tsuch"/></l><r>brosen<s n="tsuch"/></r></p></e>
+<e srl="stocky"><p><l>stocky<s n="tsuch"/></l><r>brosen<s n="tsuch"/></r></p></e>
+<e srl="thickset"><p><l>thickset<s n="tsuch"/></l><r>brosen<s n="tsuch"/></r></p></e>
+<e srl="dumpy"><p><l>dumpy<s n="tsuch"/></l><r>brosen<s n="tsuch"/></r></p></e>
+<e srl="podgy"><p><l>podgy<s n="tsuch"/></l><r>brosen<s n="tsuch"/></r></p></e>
+<e srl="pudgy"><p><l>pudgy<s n="tsuch"/></l><r>brosen<s n="tsuch"/></r></p></e>
 <e><p><l>a<b/>lot<s n="tsuch"/></l><r>a<b/>deal<s n="tsuch"/></r></p></e>
 <e srl="good D"><p><l>good<s n="tsuch"/></l><r>gradely<s n="tsuch"/></r></p></e>
 <e srl="very"><p><l>very<s n="tsuch"/></l><r>gradely<s n="tsuch"/></r></p></e>
@@ -218,79 +244,274 @@
 <e slr="mickle D"><p><l>little<s n="tsuch"/></l><r>mickle<s n="tsuch"/></r></p></e>
 <e slr="smidgen"><p><l>little<s n="tsuch"/></l><r>smidgen<s n="tsuch"/></r></p></e>
 <e slr="a mite"><p><l>little<s n="tsuch"/></l><r>a<b/>mite<s n="tsuch"/></r></p></e>
-<e><p><l>old<s n="tsuch"/></l><r>owd<s n="tsuch"/></r></p></e>
+<e srl="old D"><p><l>old<s n="tsuch"/></l><r>owd<s n="tsuch"/></r></p></e>
+<e srl="disused"><p><l>disused<s n="tsuch"/></l><r>owd<s n="tsuch"/></r></p></e>
+<e srl="obsolescent"><p><l>obsolescent<s n="tsuch"/></l><r>owd<s n="tsuch"/></r></p></e>
+<e srl="obsolete"><p><l>obsolete<s n="tsuch"/></l><r>owd<s n="tsuch"/></r></p></e>
+<e srl="out-of-date"><p><l>out-of-date<s n="tsuch"/></l><r>owd<s n="tsuch"/></r></p></e>
+<e srl="outdated"><p><l>outdated<s n="tsuch"/></l><r>owd<s n="tsuch"/></r></p></e>
 <e srl="leaning D"><p><l>leaning<s n="tsuch"/></l><r>keck<s n="tsuch"/></r></p></e>
 <e srl="tipped"><p><l>tipped<s n="tsuch"/></l><r>keck<s n="tsuch"/></r></p></e>
 <e srl="tilted"><p><l>tilted<s n="tsuch"/></l><r>keck<s n="tsuch"/></r></p></e>
+<e srl="sloped"><p><l>sloped<s n="tsuch"/></l><r>keck<s n="tsuch"/></r></p></e>
+<e srl="angled"><p><l>angled<s n="tsuch"/></l><r>keck<s n="tsuch"/></r></p></e>
+<e srl="slanted"><p><l>slanted<s n="tsuch"/></l><r>keck<s n="tsuch"/></r></p></e>
+<e srl="canted"><p><l>canted<s n="tsuch"/></l><r>keck<s n="tsuch"/></r></p></e>
+<e srl="slanted"><p><l>slanted<s n="tsuch"/></l><r>keck<s n="tsuch"/></r></p></e>
+<e><p><l>left-handed<s n="tsuch"/></l><r>cack-handed<s n="tsuch"/></r></p></e>
+
+<!-- tell -->
+<!-- en-lanc_1 -->
+<e srl="no D"><p><l>no<s n="tell"/></l><r>nay<s n="tell"/></r></p></e>
+<e srl="negative"><p><l>negative<s n="tell"/></l><r>nay<s n="tell"/></r></p></e>
+<e srl="nope"><p><l>nope<s n="tell"/></l><r>nay<s n="tell"/></r></p></e>
+<e srl="no way"><p><l>no<b/>way<s n="tell"/></l><r>nay<s n="tell"/></r></p></e>
+<e srl="yes D"><p><l>yes<s n="tell"/></l><r>aye<s n="tell"/></r></p></e>
+<e srl="yeah"><p><l>yeah<s n="tell"/></l><r>aye<s n="tell"/></r></p></e>
+<e srl="yeh"><p><l>yeh<s n="tell"/></l><r>aye<s n="tell"/></r></p></e>
+<e srl="ok"><p><l>ok<s n="tell"/></l><r>aye<s n="tell"/></r></p></e>
+
+<!-- stead-way -->
+<!-- en-lanc_1 -->
+<e><p><l>between<s n="steadw"/></l><r>betwixt<s n="steadw"/></r></p></e>
+
+<!-- time -->
+<!-- en-lanc_1 -->
+<e><p><l>are<s n="vblex"/></l><r>art<s n="vblex"/></r></p></e>
+<e srl="earn D"><p><l>earn<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
+<e srl="gain"><p><l>gain<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
+<e srl="realize"><p><l>realize<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
+<e srl="realise"><p><l>realise<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
+<e srl="beat D"><p><l>beat<s n="vblex"/></l><r>cap<s n="vblex"/></r></p></e>
+<e srl="win"><p><l>win<s n="vblex"/></l><r>cap<s n="vblex"/></r></p></e>
+<e srl="press D"><p><l>press<s n="vblex"/></l><r>throng<s n="vblex"/></r></p></e>
+<e srl="mob"><p><l>mob<s n="vblex"/></l><r>throng<s n="vblex"/></r></p></e>
+<e srl="crowd"><p><l>crowd<s n="vblex"/></l><r>throng<s n="vblex"/></r></p></e>
+<e srl="thrash D"><p><l>thrash<s n="vblex"/></l><r>bray<s n="vblex"/></r></p></e>
+<e srl="work over"><p><l>work<b/>over<s n="vblex"/></l><r>bray<s n="vblex"/></r></p></e>
+<e srl="beat up"><p><l>beat<b/>up<s n="vblex"/></l><r>bray<s n="vblex"/></r></p></e>
+<e srl="drub"><p><l>drub<s n="vblex"/></l><r>bray<s n="vblex"/></r></p></e>
+<e srl="trounce"><p><l>trounce<s n="vblex"/></l><r>bray<s n="vblex"/></r></p></e>
+<e srl="clobber"><p><l>clobber<s n="vblex"/></l><r>bray<s n="vblex"/></r></p></e>
+<e srl="smack D"><p><l>smack<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
+<e srl="skelp"><p><l>skelp<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
+<e srl="scream"><p><l>scream<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
+<e srl="howl"><p><l>howl<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
+<e srl="cry"><p><l>cry<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
+<e srl="holler"><p><l>holler<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
+<e srl="shout"><p><l>shout<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
+<e srl="shout out"><p><l>shout<b/>out<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
+<e srl="yell"><p><l>yell<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
+<e><p><l>understand<s n="vblex"/></l><r>ken<s n="vblex"/></r></p></e>
+<e><p><l>look<s n="vblex"/></l><r>sken<s n="vblex"/></r></p></e>
+<e srl="mock D"><p><l>mock<s n="vblex"/></l><r>skit<s n="vblex"/></r></p></e>
+<e srl="tease"><p><l>tease<s n="vblex"/></l><r>skit<s n="vblex"/></r></p></e>
+<e srl="taunt"><p><l>taunt<s n="vblex"/></l><r>skit<s n="vblex"/></r></p></e>
+<e srl="bemock"><p><l>bemock<s n="vblex"/></l><r>skit<s n="vblex"/></r></p></e>
+<e srl="water D"><p><l>water<s n="vblex"/></l><r>deg<s n="vblex"/></r></p></e>
+<e srl="irrigate"><p><l>irrigate<s n="vblex"/></l><r>deg<s n="vblex"/></r></p></e>
+<e srl="soak D"><p><l>soak<s n="vblex"/></l><r>witchett<s n="vblex"/></r></p></e>
+<e srl="drench"><p><l>drench<s n="vblex"/></l><r>witchett<s n="vblex"/></r></p></e>
+<e srl="douse"><p><l>douse<s n="vblex"/></l><r>witchett<s n="vblex"/></r></p></e>
+<e srl="sop"><p><l>sop<s n="vblex"/></l><r>witchett<s n="vblex"/></r></p></e>
+<e srl="souse"><p><l>souse<s n="vblex"/></l><r>witchett<s n="vblex"/></r></p></e>
+<e srl="worry D"><p><l>worry<s n="vblex"/></l><r>moider<s n="vblex"/></r></p></e>
+<e srl="disorder"><p><l>disorder<s n="vblex"/></l><r>moider<s n="vblex"/></r></p></e>
+<e srl="disquiet"><p><l>disquiet<s n="vblex"/></l><r>moider<s n="vblex"/></r></p></e>
+<e srl="distract"><p><l>distract<s n="vblex"/></l><r>moider<s n="vblex"/></r></p></e>
+<e srl="perturb"><p><l>perturb<s n="vblex"/></l><r>moider<s n="vblex"/></r></p></e>
+<e srl="trouble"><p><l>trouble<s n="vblex"/></l><r>moider<s n="vblex"/></r></p></e>
+<e srl="unhinge"><p><l>unhinge<s n="vblex"/></l><r>moider<s n="vblex"/></r></p></e>
+<e srl="dig D"><p><l>dig<s n="vblex"/></l><r>delve<s n="vblex"/></r></p></e>
+<e srl="excavate"><p><l>excavate<s n="vblex"/></l><r>delve<s n="vblex"/></r></p></e>
+<e><p><l>weed<s n="vblex"/></l><r>lowk<s n="vblex"/></r></p></e>
+<e><p><l>get<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
+<e srl="eat D"><p><l>eat<s n="vblex"/></l><r>et<s n="vblex"/></r></p></e>
+<e srl="scoff"><p><l>scoff<s n="vblex"/></l><r>et<s n="vblex"/></r></p></e>
+<e srl="ate D"><p><l>ate<s n="vblex"/></l><r>et<s n="vblex"/></r></p></e>
+<e srl="scoffed"><p><l>scoffed<s n="vblex"/></l><r>et<s n="vblex"/></r></p></e>
+
+<!-- time-mood -->
+<!-- en-lanc_1 -->
+<e><p><l>must<s n="tmmood"/></l><r>mun<s n="tmmood"/></r></p></e>
+<e slr="happen D"><p><l>maybe<s n="tmmood"/></l><r>happen<s n="tmmood"/></r></p></e>
+<e slr="marry"><p><l>maybe<s n="tmmood"/></l><r>marry<s n="tmmood"/></r></p></e>
+
+
+<!-- thing -->
+<!-- en-lanc_2 -->
+<e><p><l>toilet<s n="t"/></l><r>tippler<s n="t"/></r></p></e>
+<e><p><l>woman<s n="t"/></l><r>lady<s n="t"/></r></p></e>
+<e srl="gut D"><p><l>gut<s n="t"/></l><r>weasand<s n="t"/></r></p></e>
+<e srl="intestine"><p><l>intestine<s n="t"/></l><r>weasand<s n="t"/></r></p></e>
+<e srl="bowel"><p><l>bowel<s n="t"/></l><r>weasand<s n="t"/></r></p></e>
+<e srl="clothes D"><p><l>clothes<s n="t"/></l><r>rags<s n="t"/></r></p></e>
+<e srl="clothing"><p><l>clothing<s n="t"/></l><r>rags<s n="t"/></r></p></e>
+<e srl="apparel"><p><l>apparel<s n="t"/></l><r>rags<s n="t"/></r></p></e>
+<e srl="dress"><p><l>dress<s n="t"/></l><r>rags<s n="t"/></r></p></e>
+<e srl="people D"><p><l>people<s n="t"/></l><r>folks<s n="t"/></r></p></e>
+<e srl="populace"><p><l>populace<s n="t"/></l><r>folks<s n="t"/></r></p></e>
+<e srl="public"><p><l>public<s n="t"/></l><r>folks<s n="t"/></r></p></e>
+<e srl="social class"><p><l>social<b/>class<s n="t"/></l><r>folks<s n="t"/></r></p></e>
+<e srl="socio-economic class"><p><l>socio-economic<b/>class<s n="t"/></l><r>folks<s n="t"/></r></p></e>
+
+<!-- thing-wide -->
+<!-- en-lanc_2 -->
+
 <!-- thing-suchness -->
 <!-- en-lanc_2 -->
-<e><p><l>pregnant<s n="tsuch"/></l><r>in<b/>the<b/>family<b/>way<s n="tsuch"/></r></p></e>
+<e srl="pregnant D"><p><l>pregnant<s n="tsuch"/></l><r>in<b/>the<b/>family<b/>way<s n="tsuch"/></r></p></e>
+<e srl="with child"><p><l>with<b/>child<s n="tsuch"/></l><r>in<b/>the<b/>family<b/>way<s n="tsuch"/></r></p></e>
+<e srl="expectant"><p><l>expectant<s n="tsuch"/></l><r>in<b/>the<b/>family<b/>way<s n="tsuch"/></r></p></e>
+
+<!-- stead-way -->
+<!-- en-lanc_2 -->
+<e><p><l>as<s n="steadw"/></l><r>for<s n="steadw"/></r></p></e>
+
+<!-- time -->
+<!-- en-lanc_2 -->
+<e srl="strike D"><p><l>strike<s n="vblex"/></l><r>clout<s n="vblex"/></r></p></e>
+<e srl="hit"><p><l>hit<s n="vblex"/></l><r>clout<s n="vblex"/></r></p></e>
+<e srl="impact"><p><l>impact<s n="vblex"/></l><r>clout<s n="vblex"/></r></p></e>
+<e srl="knock"><p><l>knock<s n="vblex"/></l><r>clout<s n="vblex"/></r></p></e>
+<e srl="work D"><p><l>work<s n="vblex"/></l><r>toil<s n="vblex"/></r></p></e>
+<e srl="labour"><p><l>labour<s n="vblex"/></l><r>toil<s n="vblex"/></r></p></e>
+<e srl="exert"><p><l>exert<s n="vblex"/></l><r>toil<s n="vblex"/></r></p></e>
+<e srl="do work"><p><l>do<b/>work<s n="vblex"/></l><r>toil<s n="vblex"/></r></p></e>
+
+
+<!-- thing -->
+<!-- en-lanc_3 -->
+<e srl="police D"><p><l>police<s n="t"/></l><r>bayly<s n="t"/></r></p></e>
+<e srl="bailiff"><p><l>bailiff<s n="t"/></l><r>bayly<s n="t"/></r></p></e>
+<e srl="law"><p><l>law<s n="t"/></l><r>bayly<s n="t"/></r></p></e>
+<e srl="police force"><p><l>police<b/>force<s n="t"/></l><r>bayly<s n="t"/></r></p></e>
+<e srl="constabulary"><p><l>constabulary<s n="t"/></l><r>bayly<s n="t"/></r></p></e>
+<e srl="scotland yard"><p><l>scotland<b/>yard<s n="t"/></l><r>bayly<s n="t"/></r></p></e>
+<e srl="jurisprudence"><p><l>jurisprudence<s n="t"/></l><r>bayly<s n="t"/></r></p></e>
+<e><p><l>tantrum<s n="t"/></l><r>benny<s n="t"/></r></p></e>
+<e srl="breeches D"><p><l>breeches<s n="t"/></l><r>britchies<s n="t"/></r></p></e>
+<e srl="trousers"><p><l>trousers<s n="t"/></l><r>britchies<s n="t"/></r></p></e>
+<e srl="pants"><p><l>pants<s n="t"/></l><r>britchies<s n="t"/></r></p></e>
+<e srl="broken D"><p><l>broken<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
+<e srl="damaged"><p><l>damaged<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
+<e srl="battered"><p><l>battered<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
+<e srl="beat-up"><p><l>beat-up<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
+<e srl="beaten-up"><p><l>beaten-up<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
+<e srl="busted"><p><l>busted<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
+<e srl="burst"><p><l>burst<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
+<e srl="broken-down"><p><l>broken-down<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
+<e srl="tumble-down"><p><l>tumble-down<s n="t"/></l><r>brossen<s n="t"/></r></p></e>
+<e><p><l>sandwich<s n="t"/></l><r>butty<s n="t"/></r></p></e>
+<e srl="devil D"><p><l>devil<s n="t"/></l><r>dule<s n="t"/></r></p></e>
+<e srl="satan"><p><l>satan<s n="t"/></l><r>dule<s n="t"/></r></p></e>
+<e srl="beelzebub"><p><l>beelzebub<s n="t"/></l><r>dule<s n="t"/></r></p></e>
+<e srl="lucifer"><p><l>lucifer<s n="t"/></l><r>dule<s n="t"/></r></p></e>
+<e srl="old nick"><p><l>old<b/>nick<s n="t"/></l><r>dule<s n="t"/></r></p></e>
+<e srl="prince of darkness"><p><l>prince<b/>of<b/>darkness<s n="t"/></l><r>dule<s n="t"/></r></p></e>
+<e srl="the devil"><p><l>the<b/>devil<s n="t"/></l><r>dule<s n="t"/></r></p></e>
+<e srl="the tempter"><p><l>the<b/>tempter<s n="t"/></l><r>dule<s n="t"/></r></p></e>
+<e><p><l>callus<s n="t"/></l><r>seg<s n="t"/></r></p></e>
+<e srl="bastard D"><p><l>bastard<s n="t"/></l><r>git<s n="t"/></r></p></e>
+<e srl="asshole"><p><l>asshole<s n="t"/></l><r>git<s n="t"/></r></p></e>
+<e srl="mother fucker"><p><l>mother<b/>fucker<s n="t"/></l><r>git<s n="t"/></r></p></e>
+<e srl="motherfucker"><p><l>motherfucker<s n="t"/></l><r>git<s n="t"/></r></p></e>
+<e srl="sob"><p><l>sob<s n="t"/></l><r>git<s n="t"/></r></p></e>
+<e srl="son of a bitch"><p><l>son<b/>of<b/>a<b/>bitch<s n="t"/></l><r>git<s n="t"/></r></p></e>
+<e srl="whoreson"><p><l>whoreson<s n="t"/></l><r>git<s n="t"/></r></p></e>
+<e><p><l>mouth<s n="t"/></l><r>gob<s n="t"/></r></p></e>
+<e><p><l>wife<s n="t"/></l><r>missus<s n="t"/></r></p></e>
+<e srl="boss D"><p><l>boss<s n="t"/></l><r>master<s n="t"/></r></p></e>
+<e srl="gaffer"><p><l>gaffer<s n="t"/></l><r>master<s n="t"/></r></p></e>
+<e srl="honcho"><p><l>honcho<s n="t"/></l><r>master<s n="t"/></r></p></e>
+<e srl="chief"><p><l>chief<s n="t"/></l><r>master<s n="t"/></r></p></e>
+<e srl="foreman"><p><l>foreman<s n="t"/></l><r>master<s n="t"/></r></p></e>
+<e srl="gaffer"><p><l>gaffer<s n="t"/></l><r>master<s n="t"/></r></p></e>
+<e srl="chairman"><p><l>chairman<s n="t"/></l><r>master<s n="t"/></r></p></e>
+<e><p><l>head<s n="t"/></l><r>yed<s n="t"/></r></p></e>
+<e srl="ache D"><p><l>ache<s n="t"/></l><r>warch<s n="t"/></r></p></e>
+<e srl="hurt"><p><l>hurt<s n="t"/></l><r>warch<s n="t"/></r></p></e>
+<e><p><l>ear<s n="t"/></l><r>lug<s n="t"/></r></p></e>
+<e srl="cold D"><p><l>cold<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
+<e srl="arctic"><p><l>arctic<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
+<e srl="glacial"><p><l>glacial<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
+<e srl="icy"><p><l>icy<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
+<e srl="frosty"><p><l>frosty<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
+<e srl="frozen"><p><l>frozen<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
+<e srl="glacial"><p><l>glacial<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
+<e srl="icy"><p><l>icy<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
+<e srl="wintry"><p><l>wintry<s n="t"/></l><r>nesh<s n="t"/></r></p></e>
+<e srl="sense D"><p><l>sense<s n="t"/></l><r>nouse<s n="t"/></r></p></e>
+<e srl="faculty"><p><l>faculty<s n="t"/></l><r>nouse<s n="t"/></r></p></e>
+<e srl="reason"><p><l>reason<s n="t"/></l><r>nouse<s n="t"/></r></p></e>
+
+<!-- thing-wide -->
+<!-- en-lanc_3 -->
+<e><p><l>myself<s n="tw"/></l><r>mysen<s n="tw"/></r></p></e>
+<e><p><l>we<s n="tw"/></l><r>us<s n="tw"/></r></p></e>
+<e><p><l>there<s n="tw"/></l><r>yon<s n="tw"/></r></p></e>
+
 <!-- thing-suchness -->
 <!-- en-lanc_3 -->
 <e><p><l>foolish<s n="tsuch"/></l><r>gormless<s n="tsuch"/></r></p></e>
 <e><p><l>glad<s n="tsuch"/></l><r>fain<s n="tsuch"/></r></p></e>
 
-
-
-<!-- time -->
-<e><p><l>are<s n="vblex"/></l><r>art<s n="vblex"/></r></p></e>
-<e><p><l>earn<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
-<e><p><l>beat<s n="vblex"/></l><r>cap<s n="vblex"/></r></p></e>
-<e><p><l>press<s n="vblex"/></l><r>throng<s n="vblex"/></r></p></e>
-<e><p><l>thrash<s n="vblex"/></l><r>bray<s n="vblex"/></r></p></e>
-<e><p><l>smack<s n="vblex"/></l><r>skelp<s n="vblex"/></r></p></e>
-<e><p><l>scream<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
-<e><p><l>understand<s n="vblex"/></l><r>ken<s n="vblex"/></r></p></e>
-<e><p><l>look<s n="vblex"/></l><r>sken<s n="vblex"/></r></p></e>
-<e><p><l>watch<s n="vblex"/></l><r>sken<s n="vblex"/></r></p></e>
-<e><p><l>mock<s n="vblex"/></l><r>skit<s n="vblex"/></r></p></e>
-<e><p><l>water<s n="vblex"/></l><r>deg<s n="vblex"/></r></p></e>
-<e><p><l>soak<s n="vblex"/></l><r>witchett<s n="vblex"/></r></p></e>
-<e><p><l>worry<s n="vblex"/></l><r>moider<s n="vblex"/></r></p></e>
-<e><p><l>dig<s n="vblex"/></l><r>delve<s n="vblex"/></r></p></e>
-<e><p><l>weed<s n="vblex"/></l><r>lowk<s n="vblex"/></r></p></e>
-<e><p><l>get<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
-<e><p><l>eat<s n="vblex"/></l><r>et<s n="vblex"/></r></p></e>
-<e><p><l>ate<s n="vblex"/></l><r>et<s n="vblex"/></r></p></e>
-<!-- time -->
-<!-- en-lanc_2 -->
-<e><p><l>strike<s n="vblex"/></l><r>clout<s n="vblex"/></r></p></e>
-<e><p><l>work<s n="vblex"/></l><r>toil<s n="vblex"/></r></p></e>
 <!-- time -->
 <!-- en-lanc_3 -->
 <e><p><l>strike<s n="vblex"/></l><r>clout<s n="vblex"/></r></p></e>
-<e><p><l>fix<s n="vblex"/></l><r>fettle<s n="vblex"/></r></p></e>
+<e srl="fix D"><p><l>fix<s n="vblex"/></l><r>fettle<s n="vblex"/></r></p></e>
+<e srl="mend"><p><l>mend<s n="vblex"/></l><r>fettle<s n="vblex"/></r></p></e>
+<e srl="repair"><p><l>repair<s n="vblex"/></l><r>fettle<s n="vblex"/></r></p></e>
+<e srl="restore"><p><l>restore<s n="vblex"/></l><r>fettle<s n="vblex"/></r></p></e>
+<e srl="prepare"><p><l>prepare<s n="vblex"/></l><r>fettle<s n="vblex"/></r></p></e>
+<e srl="ready"><p><l>ready<s n="vblex"/></l><r>fettle<s n="vblex"/></r></p></e>
 <e><p><l>exhaust<s n="vblex"/></l><r>jigger<s n="vblex"/></r></p></e>
-<e><p><l>killed<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
+<e srl="killed D"><p><l>killed<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
+<e srl="consume"><p><l>consume<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
+<e srl="exhaust"><p><l>exhaust<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
+<e srl="expend"><p><l>expend<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
+<e srl="use up"><p><l>use<b/>up<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
+<e srl="wipe out"><p><l>wipe<b/>out<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
+<e srl="depleted"><p><l>depleted<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
 <e srl="annoy D"><p><l>annoy<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
 <e srl="bother"><p><l>bother<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="harass"><p><l>harass<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="beset"><p><l>beset<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="chafe"><p><l>chafe<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="chevvy"><p><l>chevvy<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="chevy"><p><l>chevy<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="chivy"><p><l>chivy<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="get at"><p><l>get<b/>at<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="get to"><p><l>get<b/>to<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="harry"><p><l>harry<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="hassle"><p><l>hassle<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="irritate"><p><l>irritate<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="nark"><p><l>nark<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="nettle"><p><l>nettle<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="plague"><p><l>plague<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="rag"><p><l>rag<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="rile"><p><l>rile<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="vex"><p><l>vex<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
+<e srl="chivy"><p><l>chivy<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
 <e><p><l>must<s n="vblex"/></l><r>mun<s n="vblex"/></r></p></e>
 <e srl="tire D"><p><l>tire<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
 <e srl="exhaust"><p><l>exhaust<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e srl="fag"><p><l>fag<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e srl="fag out"><p><l>fag<b/>out<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e srl="fatigue"><p><l>fatigue<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e srl="jade"><p><l>jade<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e srl="wear"><p><l>wear<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e srl="wear down"><p><l>wear<b/>down<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e srl="wear out"><p><l>wear<b/>out<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e srl="wear upon"><p><l>wear<b/>upon<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e srl="wear"><p><l>wear<s n="vblex"/></l><r>wack<s n="vblex"/></r></p></e>
+<e><p><l>was<s n="vblex"/></l><r>were<s n="vblex"/></r></p></e>
 
-
-
-<!-- time-mood -->
-<e><p><l>must<s n="tmmood"/></l><r>mun<s n="tmmood"/></r></p></e>
-<e slr="happen D"><p><l>maybe<s n="tmmood"/></l><r>happen<s n="tmmood"/></r></p></e>
-<e slr="marry"><p><l>maybe<s n="tmmood"/></l><r>marry<s n="tmmood"/></r></p></e>
-
-      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
-      
-      <!-- tell -->
-<e><p><l>no<s n="tell"/></l><r>nay<s n="tell"/></r></p></e>
-<e><p><l>yes<s n="tell"/></l><r>aye<s n="tell"/></r></p></e>
-
-<!-- stead-way -->
-<e><p><l>between<s n="steadw"/></l><r>betwixt<s n="steadw"/></r></p></e>
-<!-- stead-way -->
-<!-- en-lanc_2 -->
-<e><p><l>as<s n="steadw"/></l><r>for<s n="steadw"/></r></p></e>
 <!-- stead-way -->
 <!-- en-lanc_3 -->
 <e><p><l>with<s n="steadw"/></l><r>wi<s n="steadw"/></r></p></e>
 <e><p><l>while<s n="steadw"/></l><r>until<s n="steadw"/></r></p></e>
+
 
    </section>
 </dictionary>
