@@ -174,6 +174,12 @@
       <e><p><l>es</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ed</l><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef> 
+    
+        <pardef n="dblD__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>ds</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ded</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
         <pardef n="d/ig__vblex">
       <e><p><l>ig</l><r>ig<s n="vblex"/><s n="pres"/></r></p></e>
       <e><p><l>igs</l><r>ig<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -421,6 +427,8 @@
 
 
 
+
+
 <!-- thing -->
 <!-- en-lanc_2 -->
 <e lm="toilet"><i>toilet</i><par n="reg__t"/></e>
@@ -437,6 +445,49 @@
 <e lm="public"><i>public</i><par n="noinf__t"/></e>
 <e lm="social class"><i>social<b/>class</i><par n="noinf__t"/></e>
 <e lm="socio-economic class"><i>socio-economic<b/>class</i><par n="noinf__t"/></e>
+<e lm="cord"><i>cord</i><par n="noinf__t"/></e>
+<e lm="twine"><i>twine</i><par n="noinf__t"/></e>
+<e lm="milk"><i>milk</i><par n="noinf__t"/></e>
+<e lm="house"><i>house</i><par n="reg__t"/></e>
+<e lm="building"><i>building</i><par n="reg__t"/></e>
+<e lm="brother"><i>brother</i><par n="reg__t"/></e>
+<e lm="shelf"><i>shelf</i><par n="reg__t"/></e>
+<e lm="bird"><i>bird</i><par n="reg__t"/></e>
+<e lm="chain"><i>chain</i><par n="reg__t"/></e>
+<e lm="buttermilk"><i>buttermilk</i><par n="noinf__t"/></e>
+<e lm="noise"><i>noise</i><par n="noinf__t"/></e>
+<e lm="racket"><i>racket</i><par n="noinf__t"/></e>
+<e lm="stockings"><i>stockings</i><par n="noinf__t"/></e>
+<e lm="rough"><i>rough</i><par n="noinf__t"/></e>
+<e lm="stony"><i>stony</i><par n="noinf__t"/></e>
+<e lm="father"><i>father</i><par n="reg__t"/></e>
+<e lm="slut"><i>slut</i><par n="reg__t"/></e>
+<e lm="daughter"><i>daughter</i><par n="reg__t"/></e>
+<e lm="thoughtful"><i>thoughtful</i><par n="noinf__t"/></e>
+<e lm="concerned"><i>concerned</i><par n="noinf__t"/></e>
+<e lm="door"><i>door</i><par n="reg__t"/></e>
+<e lm="feather"><i>feather</i><par n="reg__t"/></e>
+<e lm="path"><i>path</i><par n="reg__t"/></e>
+<e lm="grass"><i>grass</i><par n="reg__t"/></e>
+<e lm="hand"><i>hand</i><par n="noinf__t"/></e>
+<e lm="hands"><i>hands</i><par n="noinf__t"/></e>
+<e lm="comb"><i>comb</i><par n="noinf__t"/></e>
+<e lm="family"><i>family</i><par n="noinf__t"/></e>
+<e lm="common"><i>common</i><par n="noinf__t"/></e>
+<e lm="heath"><i>heath</i><par n="noinf__t"/></e>
+<e lm="dirty old man,"><i>dirty<b/>old<b/>man,</i><par n="noinf__t"/></e>
+<e lm="letch"><i>letch</i><par n="noinf__t"/></e>
+<e lm="upper class"><i>upper<b/>class</i><par n="noinf__t"/></e>
+<e lm="aristocrat"><i>aristocrat</i><par n="reg__t"/></e>
+<e lm="nose"><i>nose</i><par n="reg__t"/></e>
+<e lm="aim"><i>aim</i><par n="reg__t"/></e>
+<e lm="brim"><i>brim</i><par n="reg__t"/></e>
+<e lm="head"><i>head</i><par n="reg__t"/></e>
+<e lm="season"><i>season</i><par n="reg__t"/></e>
+<e lm="lithe"><i>lithe</i><par n="reg__t"/></e>
+<e lm="strong"><i>strong</i><par n="reg__t"/></e>
+<e lm="song"><i>song</i><par n="reg__t"/></e>
+<e lm="wool"><i>wool</i><par n="noinf__t"/></e>
 
 <!-- thing-wide -->
 <!-- en-lanc_2 -->
@@ -446,10 +497,44 @@
 <e lm="pregnant"><i>pregnant</i><par n="tsuch"/></e>
 <e lm="with child"><i>with<b/>child</i><par n="tsuch"/></e>
 <e lm="expectant"><i>expectant</i><par n="tsuch"/></e>
+<e lm="great"><i>great</i><par n="tsuch"/></e>
+<e lm="dirty"><i>dirty</i><par n="tsuch"/></e>
+<e lm="under obligation"><i>under<b/>obligation</i><par n="tsuch"/></e>
+<e lm="handsome"><i>handsome</i><par n="tsuch"/></e>
+<e lm="pretty"><i>pretty</i><par n="tsuch"/></e>
+<e lm="bright"><i>bright</i><par n="tsuch"/></e>
+<e lm="healthy"><i>healthy</i><par n="tsuch"/></e>
+<e lm="comfortable"><i>comfortable</i><par n="tsuch"/></e>
+<e lm="friend"><i>friend</i><par n="tsuch"/></e>
+<e lm="companion"><i>companion</i><par n="tsuch"/></e>
+<e lm="healthy"><i>healthy</i><par n="tsuch"/></e>
+<e lm="overdress"><i>overdress</i><par n="tsuch"/></e>
+<e lm="forward"><i>forward</i><par n="tsuch"/></e>
+<e lm="iron"><i>iron</i><par n="tsuch"/></e>
+<e lm="ugly"><i>ugly</i><par n="tsuch"/></e>
+<e lm="fear"><i>fear</i><par n="tsuch"/></e>
+<e lm="jagged"><i>jagged</i><par n="tsuch"/></e>
+<e lm="cut"><i>cut</i><par n="tsuch"/></e>
+<e lm="sleepy"><i>sleepy</i><par n="tsuch"/></e>
+<e lm="slender"><i>slender</i><par n="tsuch"/></e>
+<e lm="thin"><i>thin</i><par n="tsuch"/></e>
+<e lm="dawn"><i>dawn</i><par n="tsuch"/></e>
+<e lm="rat"><i>rat</i><par n="tsuch"/></e>
+<e lm="mouse"><i>mouse</i><par n="tsuch"/></e>
+<e lm="stoat"><i>stoat</i><par n="tsuch"/></e>
+<e lm="weasil"><i>weasil</i><par n="tsuch"/></e>
+<e lm="cockroach"><i>cockroach</i><par n="tsuch"/></e>
+<e lm="wizard"><i>wizard</i><par n="tsuch"/></e>
+<e lm="grass"><i>grass</i><par n="tsuch"/></e>
 
 <!-- stead-way -->
 <!-- en-lanc_2 -->
 <e lm="as"><i>as</i><par n="steadw"/></e>
+<e lm="about"><i>about</i><par n="steadw"/></e>
+<e lm="near"><i>near</i><par n="steadw"/></e>
+<e lm="where"><i>where</i><par n="steadw"/></e>
+<e lm="because"><i>because</i><par n="steadw"/></e>
+<e lm="however"><i>however</i><par n="steadw"/></e>
 
 <!-- time -->
 <!-- en-lanc_2 -->
@@ -461,8 +546,38 @@
 <e lm="labour"><i>labour</i><par n="reg__vblex"/></e>
 <e lm="exert"><i>exert</i><par n="reg__vblex"/></e>
 <e lm="do work"><i>do<b/>work</i><par n="reg__vblex"/></e>
-
-
+<e lm="offer"><i>offer</i><par n="reg__vblex"/></e>
+<e lm="stick,"><i>stick,</i><par n="reg__vblex"/></e>
+<e lm="adhere"><i>adhere</i><par n="reg__vblex"/></e>
+<e lm="talk"><i>talk</i><par n="reg__vblex"/></e>
+<e lm="tattle"><i>tattle</i><par n="reg__vblex"/></e>
+<e lm="gossip"><i>gossip</i><par n="reg__vblex"/></e>
+<e lm="prate"><i>prate</i><par n="reg__vblex"/></e>
+<e lm="burn"><i>burn</i><par n="reg__vblex"/></e>
+<e lm="kiss"><i>kiss</i><par n="reg__vblex"/></e>
+<e lm="play"><i>play</i><par n="reg__vblex"/></e>
+<e lm="shake"><i>shake</i><par n="reg__vblex"/></e>
+<e lm="put on clothes"><i>put<b/>on<b/>clothes</i><par n="noinf__vblex"/></e>
+<e lm="dress"><i>dress</i><par n="noinf__vblex"/></e>
+<e lm="tired"><i>tired</i><par n="noinf__vblex"/></e>
+<e lm="talk"><i>talk</i><par n="reg__vblex"/></e>
+<e lm="offend"><i>offend</i><par n="reg__vblex"/></e>
+<e lm="run"><i>run</i><par n="reg__vblex"/></e>
+<e lm="sort"><i>sort</i><par n="reg__vblex"/></e>
+<e lm="equal"><i>equal</i><par n="reg__vblex"/></e>
+<e lm="pull"><i>pull</i><par n="dblD__vblex"/></e>
+<e lm="try"><i>try</i><par n="reg__vblex"/></e>
+<e lm="walk"><i>walk</i><par n="reg__vblex"/></e>
+<e lm="push"><i>push</i><par n="reg__vblex"/></e>
+<e lm="question"><i>question</i><par n="reg__vblex"/></e>
+<e lm="drink"><i>drink</i><par n="noinf__vblex"/></e>
+<e lm="quaff"><i>quaff</i><par n="noinf__vblex"/></e>
+<e lm="tipple"><i>tipple</i><par n="noinf__vblex"/></e>
+<e lm="swill"><i>swill</i><par n="noinf__vblex"/></e>
+<e lm="smoke"><i>smoke</i><par n="reg__vblex"/></e>
+<e lm="smell"><i>smell</i><par n="reg__vblex"/></e>
+<e lm="slide"><i>slide</i><par n="reg__vblex"/></e>
+<e lm="wash"><i>wash</i><par n="reg__vblex"/></e>
 <!-- thing -->
 <!-- en-lanc_3 -->
 <e lm="police"><i>police</i><par n="noinf__t"/></e>
