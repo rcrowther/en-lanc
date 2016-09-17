@@ -31,6 +31,7 @@
     <sdef n="adj"             c="Adjective"/>
 -->
     <sdef n="tsuch"             c="Thing such"/>
+    <sdef n="tout"             c="Thing outshow"/>
 
 <!--
     <sdef n="prn"             c="Pronoun"/>
@@ -124,10 +125,18 @@
    <section id="main" type="standard">
 	   
       <!-- Define entries within <e> here. -->
+      
+          <!-- Do not remove! -->
 
+<e><p><l>the<s n="tout"/></l><r>the<s n="tout"/></r></p></e>
+<e r="LR"><p><l>the<s n="tout"/></l><r>t'<s n="tout"/></r></p></e>
+
+    <!-- Auto-generation -->
 
 <!-- thing -->
 <!-- en-lanc_1 -->
+
+
 <e><p><l>anvil<s n="t"/></l><r>forge<s n="t"/></r></p></e>
 <e slr="bier D"><p><l>hearse<s n="t"/></l><r>bier<s n="t"/></r></p></e>
 <e slr="borne"><p><l>hearse<s n="t"/></l><r>borne<s n="t"/></r></p></e>
@@ -357,6 +366,15 @@
 <e srl="public"><p><l>public<s n="t"/></l><r>folks<s n="t"/></r></p></e>
 <e srl="social class"><p><l>social<b/>class<s n="t"/></l><r>folks<s n="t"/></r></p></e>
 <e srl="socio-economic class"><p><l>socio-economic<b/>class<s n="t"/></l><r>folks<s n="t"/></r></p></e>
+<e srl="chump D"><p><l>chump<s n="t"/></l><r>natural<s n="t"/></r></p></e>
+<e srl="fool"><p><l>fool<s n="t"/></l><r>natural<s n="t"/></r></p></e>
+<e srl="patsy"><p><l>patsy<s n="t"/></l><r>natural<s n="t"/></r></p></e>
+<e srl="fall guy"><p><l>fall<b/>guy<s n="t"/></l><r>natural<s n="t"/></r></p></e>
+<e srl="sucker"><p><l>sucker<s n="t"/></l><r>natural<s n="t"/></r></p></e>
+<e srl="soft touch"><p><l>soft<b/>touch<s n="t"/></l><r>natural<s n="t"/></r></p></e>
+<e srl="mug"><p><l>mug<s n="t"/></l><r>natural<s n="t"/></r></p></e>
+<e srl="dupe"><p><l>dupe<s n="t"/></l><r>natural<s n="t"/></r></p></e>
+<e srl="buffoon"><p><l>buffoon<s n="t"/></l><r>natural<s n="t"/></r></p></e>
 <e srl="cord D"><p><l>cord<s n="t"/></l><r>bantin<s n="t"/></r></p></e>
 <e srl="twine"><p><l>twine<s n="t"/></l><r>bantin<s n="t"/></r></p></e>
 <e srl="string"><p><l>string<s n="t"/></l><r>bantin<s n="t"/></r></p></e>

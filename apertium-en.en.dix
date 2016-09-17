@@ -29,6 +29,7 @@
     <sdef n="adj"             c="Adjective"/>
 -->
     <sdef n="tsuch"             c="Thing such"/>
+    <sdef n="tout"             c="Thing outshow"/>
 
 <!--
     <sdef n="prn"             c="Pronoun"/>
@@ -198,11 +199,17 @@
       <e><p><l>ot</l><r>et<s n="vblex"/><s n="pp"/></r></p></e>
     </pardef> 
     
+                <pardef n="t">
+      <e><p><l></l><r><s n="t"/></r></p></e>
+    </pardef> 
             <pardef n="tmmood">
       <e><p><l></l><r><s n="tmmood"/></r></p></e>
     </pardef> 
     <pardef n="tsuch">
       <e><p><l></l><r><s n="tsuch"/></r></p></e>
+    </pardef> 
+    <pardef n="tout">
+      <e><p><l></l><r><s n="tout"/></r></p></e>
     </pardef> 
     <pardef n="tw">
       <e><p><l></l><r><s n="tw"/></r></p></e>
@@ -219,6 +226,14 @@
     <!-- Define entries within <e> here. -->
 
 
+    <!-- Do not remove! -->
+     <!--
+ <e r="RL" lm="the"><i><a/>t'</i></e>
+   -->
+
+    <e lm="the"><i>the</i><par n="tout"/></e>
+
+    <!-- Auto-generation -->
 
 <!-- thing -->
 <!-- en-lanc_1 -->
@@ -446,6 +461,15 @@
 <e lm="public"><i>public</i><par n="noinf__t"/></e>
 <e lm="social class"><i>social<b/>class</i><par n="noinf__t"/></e>
 <e lm="socio-economic class"><i>socio-economic<b/>class</i><par n="noinf__t"/></e>
+<e lm="chump"><i>chump</i><par n="noinf__t"/></e>
+<e lm="fool"><i>fool</i><par n="noinf__t"/></e>
+<e lm="patsy"><i>patsy</i><par n="noinf__t"/></e>
+<e lm="fall guy"><i>fall<b/>guy</i><par n="noinf__t"/></e>
+<e lm="sucker"><i>sucker</i><par n="noinf__t"/></e>
+<e lm="soft touch"><i>soft<b/>touch</i><par n="noinf__t"/></e>
+<e lm="mug"><i>mug</i><par n="noinf__t"/></e>
+<e lm="dupe"><i>dupe</i><par n="noinf__t"/></e>
+<e lm="buffoon"><i>buffoon</i><par n="noinf__t"/></e>
 <e lm="cord"><i>cord</i><par n="noinf__t"/></e>
 <e lm="twine"><i>twine</i><par n="noinf__t"/></e>
 <e lm="string"><i>string</i><par n="noinf__t"/></e>

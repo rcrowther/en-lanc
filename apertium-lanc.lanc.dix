@@ -30,6 +30,7 @@
     <sdef n="adj"             c="Adjective"/>
 -->
     <sdef n="tsuch"             c="Thing such"/>
+    <sdef n="tout"             c="Thing outshow"/>
 
 <!--
     <sdef n="prn"             c="Pronoun"/>
@@ -230,13 +231,18 @@
       <e><p><l>ten</l><r>et<s n="vblex"/><s n="pp"/></r></p></e>
     </pardef> 
 
-
+            <pardef n="t">
+      <e><p><l></l><r><s n="t"/></r></p></e>
+    </pardef> 
             <pardef n="tmmood">
       <e><p><l></l><r><s n="tmmood"/></r></p></e>
     </pardef> 
     <pardef n="tsuch">
       <e><p><l></l><r><s n="tsuch"/></r></p></e>
     </pardef> 
+    <pardef n="tout">
+      <e><p><l></l><r><s n="tout"/></r></p></e>
+    </pardef>
     <pardef n="tw">
       <e><p><l></l><r><s n="tw"/></r></p></e>
     </pardef> 
@@ -246,11 +252,25 @@
         <pardef n="steadw">
       <e><p><l></l><r><s n="steadw"/></r></p></e>
     </pardef> 
+            <pardef n="the">
+      <e><p><l></l><r><s n="tsuch"/></r></p></e>
+    </pardef> 
   </pardefs>
 
   <section id="main" type="standard">
     <!-- Define entries within <e> here. -->
+    <!-- Do not remove! -->
+<!--
+ <e lm="the"><p><l><a/>the</l><r>the<s n="tsuch"/></r></p></e>
+-->
 
+    <e lm="the"><i>the</i><par n="tout"/></e>
+<!--
+    <e r="LR" lm="the"><p><l>t'</l><r>the<s n="tout"/></r></p></e>
+-->
+
+    
+    <!-- Auto-generation -->
 
 <!-- thing -->
 <!-- en-lanc_1 -->
@@ -360,6 +380,7 @@
 <e lm="weasand"><i>weasand</i><par n="reg__t"/></e>
 <e lm="rags"><i>rags</i><par n="noinf__t"/></e>
 <e lm="folks"><i>folks</i><par n="noinf__t"/></e>
+<e lm="natural"><i>natural</i><par n="noinf__t"/></e>
 <e lm="bantin"><i>bantin</i><par n="noinf__t"/></e>
 <e lm="beest"><i>beest</i><par n="noinf__t"/></e>
 <e lm="biggin"><i>biggin</i><par n="reg__t"/></e>
