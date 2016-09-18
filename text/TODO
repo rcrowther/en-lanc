@@ -1,0 +1,18 @@
+Check inflections (many of which are incorrect or undeveloped)
+
+Extend those words which can be in different lexical categories e.g. can some 'nouns' also be 'adjectives'? This would help make the pair react whenever possible.
+
+Further develop the compression system. Important to the language, but currently limited by my understanding and some difficulties with apertium.
+
+Develop etymological dictionary entries
+
+Develop the Grand Unified spellling system.
+
+Automate addition of thesurus entries?
+
+
+Maybe have a seperate system to lanc->en for Mr. Bobbin/Waugh, etc.
+
+Extend 'tolk' to include etymology entries/side-by-side layout, pre-configured launches, suggestion lists, scrollbars, etc?
+
+'fortune-cookie' in Lancastrian?
