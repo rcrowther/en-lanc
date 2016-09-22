@@ -133,10 +133,9 @@
 
     <!-- Auto-generation -->
 
+
 <!-- thing -->
 <!-- en-lanc_1 -->
-
-
 <e><p><l>anvil<s n="t"/></l><r>forge<s n="t"/></r></p></e>
 <e slr="bier D"><p><l>hearse<s n="t"/></l><r>bier<s n="t"/></r></p></e>
 <e slr="borne"><p><l>hearse<s n="t"/></l><r>borne<s n="t"/></r></p></e>
@@ -312,7 +311,8 @@
 <e srl="shout out"><p><l>shout<b/>out<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
 <e srl="yell"><p><l>yell<s n="vblex"/></l><r>skrike<s n="vblex"/></r></p></e>
 <e><p><l>understand<s n="vblex"/></l><r>ken<s n="vblex"/></r></p></e>
-<e><p><l>look<s n="vblex"/></l><r>sken<s n="vblex"/></r></p></e>
+<e srl="look D"><p><l>look<s n="vblex"/></l><r>sken<s n="vblex"/></r></p></e>
+<e srl="watch"><p><l>watch<s n="vblex"/></l><r>sken<s n="vblex"/></r></p></e>
 <e srl="mock D"><p><l>mock<s n="vblex"/></l><r>skit<s n="vblex"/></r></p></e>
 <e srl="tease"><p><l>tease<s n="vblex"/></l><r>skit<s n="vblex"/></r></p></e>
 <e srl="taunt"><p><l>taunt<s n="vblex"/></l><r>skit<s n="vblex"/></r></p></e>
@@ -560,7 +560,7 @@
 <e><p><l>tire<s n="vblex"/></l><r>fag<s n="vblex"/></r></p></e>
 <e slr="gab D"><p><l>talk<s n="vblex"/></l><r>gab<s n="vblex"/></r></p></e>
 <e slr="lip"><p><l>talk<s n="vblex"/></l><r>lip<s n="vblex"/></r></p></e>
-<e srl="offense D"><p><l>offense<s n="vblex"/></l><r>huff<s n="vblex"/></r></p></e>
+<e srl="offend D"><p><l>offend<s n="vblex"/></l><r>huff<s n="vblex"/></r></p></e>
 <e srl="disrespect"><p><l>disrespect<s n="vblex"/></l><r>huff<s n="vblex"/></r></p></e>
 <e><p><l>run<s n="vblex"/></l><r>lob<s n="vblex"/></r></p></e>
 <e><p><l>sort<s n="vblex"/></l><r>make<s n="vblex"/></r></p></e>
@@ -681,7 +681,7 @@
 <e srl="expend"><p><l>expend<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
 <e srl="use up"><p><l>use<b/>up<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
 <e srl="wipe out"><p><l>wipe<b/>out<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
-<e srl="depleted"><p><l>depleted<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
+<e srl="deplete"><p><l>deplete<s n="vblex"/></l><r>kilt<s n="vblex"/></r></p></e>
 <e srl="annoy D"><p><l>annoy<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
 <e srl="bother"><p><l>bother<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
 <e srl="harass"><p><l>harass<s n="vblex"/></l><r>moither<s n="vblex"/></r></p></e>
@@ -720,7 +720,6 @@
 <!-- en-lanc_3 -->
 <e><p><l>with<s n="steadw"/></l><r>wi<s n="steadw"/></r></p></e>
 <e><p><l>while<s n="steadw"/></l><r>until<s n="steadw"/></r></p></e>
-
 
    </section>
 </dictionary>

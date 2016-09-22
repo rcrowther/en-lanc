@@ -170,17 +170,53 @@
       <e><p><l>s</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ed</l><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef> 
+    <pardef n="regE__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>s</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>d</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
     <pardef n="penReg__vblex">
       <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
       <e><p><l>es</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ed</l><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef> 
     
+        <pardef n="dblB__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>bs</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>bed</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
         <pardef n="dblD__vblex">
       <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
       <e><p><l>ds</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ded</l><r><s n="vblex"/><s n="pp"/></r></p></e>
     </pardef> 
+
+    <pardef n="dblG__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>gs</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ged</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
+    <pardef n="dblP__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>ps</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ped</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
+        <pardef n="dblR__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>s</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>red</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef> 
+        <pardef n="dblN__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>ns</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ned</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef>
+        <pardef n="dblT__vblex">
+      <e><p><l></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+      <e><p><l>ts</l><r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ted</l><r><s n="vblex"/><s n="pp"/></r></p></e>
+    </pardef>
         <pardef n="d/ig__vblex">
       <e><p><l>ig</l><r>ig<s n="vblex"/><s n="pres"/></r></p></e>
       <e><p><l>igs</l><r>ig<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -391,12 +427,12 @@
 <e lm="press"><i>press</i><par n="penReg__vblex"/></e>
 <e lm="mob"><i>mob</i><par n="penReg__vblex"/></e>
 <e lm="crowd"><i>crowd</i><par n="penReg__vblex"/></e>
-<e lm="thrash"><i>thrash</i><par n="penReg__vblex"/></e>
-<e lm="work over"><i>work<b/>over</i><par n="penReg__vblex"/></e>
-<e lm="beat up"><i>beat<b/>up</i><par n="penReg__vblex"/></e>
-<e lm="drub"><i>drub</i><par n="penReg__vblex"/></e>
-<e lm="trounce"><i>trounce</i><par n="penReg__vblex"/></e>
-<e lm="clobber"><i>clobber</i><par n="penReg__vblex"/></e>
+<e lm="thrash"><i>thrash</i><par n="reg__vblex"/></e>
+<e lm="work over"><i>work<b/>over</i><par n="noinf__vblex"/></e>
+<e lm="beat up"><i>beat<b/>up</i><par n="noinf__vblex"/></e>
+<e lm="drub"><i>drub</i><par n="dblB__vblex"/></e>
+<e lm="trounce"><i>trounce</i><par n="regE__vblex"/></e>
+<e lm="clobber"><i>clobber</i><par n="reg__vblex"/></e>
 <e lm="smack"><i>smack</i><par n="reg__vblex"/></e>
 <e lm="skelp"><i>skelp</i><par n="reg__vblex"/></e>
 <e lm="scream"><i>scream</i><par n="reg__vblex"/></e>
@@ -408,26 +444,27 @@
 <e lm="yell"><i>yell</i><par n="reg__vblex"/></e>
 <e lm="understand"><i>understand</i><par n="reg__vblex"/></e>
 <e lm="look"><i>look</i><par n="reg__vblex"/></e>
+<e lm="watch"><i>watch</i><par n="penReg__vblex"/></e>
 <e lm="mock"><i>mock</i><par n="reg__vblex"/></e>
-<e lm="tease"><i>tease</i><par n="reg__vblex"/></e>
+<e lm="tease"><i>tease</i><par n="regE__vblex"/></e>
 <e lm="taunt"><i>taunt</i><par n="reg__vblex"/></e>
 <e lm="bemock"><i>bemock</i><par n="reg__vblex"/></e>
 <e lm="water"><i>water</i><par n="reg__vblex"/></e>
-<e lm="irrigate"><i>irrigate</i><par n="reg__vblex"/></e>
+<e lm="irrigate"><i>irrigate</i><par n="regE__vblex"/></e>
 <e lm="soak"><i>soak</i><par n="reg__vblex"/></e>
 <e lm="drench"><i>drench</i><par n="reg__vblex"/></e>
-<e lm="douse"><i>douse</i><par n="reg__vblex"/></e>
-<e lm="sop"><i>sop</i><par n="reg__vblex"/></e>
-<e lm="souse"><i>souse</i><par n="reg__vblex"/></e>
+<e lm="douse"><i>douse</i><par n="regE__vblex"/></e>
+<e lm="sop"><i>sop</i><par n="dblP__vblex"/></e>
+<e lm="souse"><i>souse</i><par n="regE__vblex"/></e>
 <e lm="worry"><i>worry</i><par n="reg__vblex"/></e>
 <e lm="disorder"><i>disorder</i><par n="reg__vblex"/></e>
 <e lm="disquiet"><i>disquiet</i><par n="reg__vblex"/></e>
 <e lm="distract"><i>distract</i><par n="reg__vblex"/></e>
 <e lm="perturb"><i>perturb</i><par n="reg__vblex"/></e>
-<e lm="trouble"><i>trouble</i><par n="reg__vblex"/></e>
-<e lm="unhinge"><i>unhinge</i><par n="reg__vblex"/></e>
+<e lm="trouble"><i>trouble</i><par n="regE__vblex"/></e>
+<e lm="unhinge"><i>unhinge</i><par n="regE__vblex"/></e>
 <e lm="dig"><i>d</i><par n="d/ig__vblex"/></e>
-<e lm="excavate"><i>excavate</i><par n="d/ig__vblex"/></e>
+<e lm="excavate"><i>excavate</i><par n="regE__vblex"/></e>
 <e lm="weed"><i>weed</i><par n="reg__vblex"/></e>
 <e lm="get"><i>g</i><par n="g/et__vblex"/></e>
 <e lm="eat"><i>eat</i><par n="eat__vblex"/></e>
@@ -439,9 +476,6 @@
 <!-- en-lanc_1 -->
 <e lm="must"><i>must</i><par n="tmmood"/></e>
 <e lm="maybe"><i>maybe</i><par n="tmmood"/></e>
-
-
-
 
 
 
@@ -639,20 +673,20 @@
 <e lm="do work"><i>do<b/>work</i><par n="reg__vblex"/></e>
 <e lm="offer"><i>offer</i><par n="reg__vblex"/></e>
 <e lm="stick,"><i>stick,</i><par n="reg__vblex"/></e>
-<e lm="adhere"><i>adhere</i><par n="reg__vblex"/></e>
+<e lm="adhere"><i>adhere</i><par n="regE__vblex"/></e>
 <e lm="talk"><i>talk</i><par n="reg__vblex"/></e>
-<e lm="tattle"><i>tattle</i><par n="reg__vblex"/></e>
+<e lm="tattle"><i>tattle</i><par n="regE__vblex"/></e>
 <e lm="gossip"><i>gossip</i><par n="reg__vblex"/></e>
-<e lm="prate"><i>prate</i><par n="reg__vblex"/></e>
+<e lm="prate"><i>prate</i><par n="regE__vblex"/></e>
 <e lm="burn"><i>burn</i><par n="reg__vblex"/></e>
 <e lm="kiss"><i>kiss</i><par n="reg__vblex"/></e>
 <e lm="play"><i>play</i><par n="reg__vblex"/></e>
 <e lm="shake"><i>shake</i><par n="reg__vblex"/></e>
 <e lm="put on clothes"><i>put<b/>on<b/>clothes</i><par n="noinf__vblex"/></e>
-<e lm="dress"><i>dress</i><par n="noinf__vblex"/></e>
-<e lm="tire"><i>tire</i><par n="reg__vblex"/></e>
+<e lm="dress"><i>dress</i><par n="penReg__vblex"/></e>
+<e lm="tire"><i>tire</i><par n="regE__vblex"/></e>
 <e lm="talk"><i>talk</i><par n="reg__vblex"/></e>
-<e lm="offense"><i>offense</i><par n="reg__vblex"/></e>
+<e lm="offend"><i>offend</i><par n="reg__vblex"/></e>
 <e lm="disrespect"><i>disrespect</i><par n="reg__vblex"/></e>
 <e lm="run"><i>run</i><par n="reg__vblex"/></e>
 <e lm="sort"><i>sort</i><par n="reg__vblex"/></e>
@@ -662,22 +696,26 @@
 <e lm="walk"><i>walk</i><par n="reg__vblex"/></e>
 <e lm="push"><i>push</i><par n="reg__vblex"/></e>
 <e lm="question"><i>question</i><par n="reg__vblex"/></e>
-<e lm="interrogate"><i>interrogate</i><par n="reg__vblex"/></e>
-<e lm="examine"><i>examine</i><par n="reg__vblex"/></e>
+<e lm="interrogate"><i>interrogate</i><par n="regE__vblex"/></e>
+<e lm="examine"><i>examine</i><par n="regE__vblex"/></e>
 <e lm="drink"><i>drink</i><par n="noinf__vblex"/></e>
-<e lm="booze"><i>booze</i><par n="noinf__vblex"/></e>
+<e lm="booze"><i>booze</i><par n="regE__vblex"/></e>
 <e lm="quaff"><i>quaff</i><par n="noinf__vblex"/></e>
 <e lm="tipple"><i>tipple</i><par n="noinf__vblex"/></e>
 <e lm="swill"><i>swill</i><par n="noinf__vblex"/></e>
-<e lm="smoke"><i>smoke</i><par n="reg__vblex"/></e>
+<e lm="smoke"><i>smoke</i><par n="regE__vblex"/></e>
 <e lm="smell"><i>smell</i><par n="reg__vblex"/></e>
-<e lm="slide"><i>slide</i><par n="reg__vblex"/></e>
+<e lm="slide"><i>slide</i><par n="regE__vblex"/></e>
 <e lm="skid"><i>skid</i><par n="reg__vblex"/></e>
 <e lm="slew"><i>slew</i><par n="reg__vblex"/></e>
-<e lm="wash"><i>wash</i><par n="reg__vblex"/></e>
-<e lm="cleanse"><i>cleanse</i><par n="reg__vblex"/></e>
+<e lm="wash"><i>wash</i><par n="penReg__vblex"/></e>
+<e lm="cleanse"><i>cleanse</i><par n="regE__vblex"/></e>
 <e lm="clean"><i>clean</i><par n="reg__vblex"/></e>
-<e lm="wash up"><i>wash<b/>up</i><par n="reg__vblex"/></e>
+<e lm="wash up"><i>wash<b/>up</i><par n="noinf__vblex"/></e>
+
+
+
+
 <!-- thing -->
 <!-- en-lanc_3 -->
 <e lm="police"><i>police</i><par n="noinf__t"/></e>
@@ -757,50 +795,50 @@
 <!-- time -->
 <!-- en-lanc_3 -->
 <e lm="strike"><i>strike</i><par n="reg__vblex"/></e>
-<e lm="fix"><i>fix</i><par n="reg__vblex"/></e>
+<e lm="fix"><i>fix</i><par n="penReg__vblex"/></e>
 <e lm="mend"><i>mend</i><par n="reg__vblex"/></e>
 <e lm="repair"><i>repair</i><par n="reg__vblex"/></e>
-<e lm="restore"><i>restore</i><par n="reg__vblex"/></e>
-<e lm="prepare"><i>prepare</i><par n="reg__vblex"/></e>
-<e lm="ready"><i>ready</i><par n="reg__vblex"/></e>
+<e lm="restore"><i>restore</i><par n="regE__vblex"/></e>
+<e lm="prepare"><i>prepare</i><par n="regE__vblex"/></e>
+<e lm="ready"><i>ready</i><par n="noinf__vblex"/></e>
 <e lm="exhaust"><i>exhaust</i><par n="reg__vblex"/></e>
 <e lm="killed"><i>killed</i><par n="noinf__vblex"/></e>
-<e lm="consume"><i>consume</i><par n="noinf__vblex"/></e>
-<e lm="exhaust"><i>exhaust</i><par n="noinf__vblex"/></e>
-<e lm="expend"><i>expend</i><par n="noinf__vblex"/></e>
+<e lm="consume"><i>consume</i><par n="regE__vblex"/></e>
+<e lm="exhaust"><i>exhaust</i><par n="reg__vblex"/></e>
+<e lm="expend"><i>expend</i><par n="reg__vblex"/></e>
 <e lm="use up"><i>use<b/>up</i><par n="noinf__vblex"/></e>
 <e lm="wipe out"><i>wipe<b/>out</i><par n="noinf__vblex"/></e>
-<e lm="depleted"><i>depleted</i><par n="noinf__vblex"/></e>
+<e lm="deplete"><i>deplete</i><par n="regE__vblex"/></e>
 <e lm="annoy"><i>annoy</i><par n="reg__vblex"/></e>
 <e lm="bother"><i>bother</i><par n="reg__vblex"/></e>
-<e lm="harass"><i>harass</i><par n="reg__vblex"/></e>
+<e lm="harass"><i>harass</i><par n="penReg__vblex"/></e>
 <e lm="beset"><i>beset</i><par n="reg__vblex"/></e>
-<e lm="chafe"><i>chafe</i><par n="reg__vblex"/></e>
+<e lm="chafe"><i>chafe</i><par n="regE__vblex"/></e>
 <e lm="chevvy"><i>chevvy</i><par n="reg__vblex"/></e>
 <e lm="chevy"><i>chevy</i><par n="reg__vblex"/></e>
 <e lm="chivy"><i>chivy</i><par n="reg__vblex"/></e>
 <e lm="get at"><i>get<b/>at</i><par n="reg__vblex"/></e>
 <e lm="get to"><i>get<b/>to</i><par n="reg__vblex"/></e>
 <e lm="harry"><i>harry</i><par n="reg__vblex"/></e>
-<e lm="hassle"><i>hassle</i><par n="reg__vblex"/></e>
-<e lm="irritate"><i>irritate</i><par n="reg__vblex"/></e>
+<e lm="hassle"><i>hassle</i><par n="regE__vblex"/></e>
+<e lm="irritate"><i>irritate</i><par n="regE__vblex"/></e>
 <e lm="nark"><i>nark</i><par n="reg__vblex"/></e>
-<e lm="nettle"><i>nettle</i><par n="reg__vblex"/></e>
-<e lm="plague"><i>plague</i><par n="reg__vblex"/></e>
-<e lm="rag"><i>rag</i><par n="reg__vblex"/></e>
-<e lm="rile"><i>rile</i><par n="reg__vblex"/></e>
-<e lm="vex"><i>vex</i><par n="reg__vblex"/></e>
+<e lm="nettle"><i>nettle</i><par n="regE__vblex"/></e>
+<e lm="plague"><i>plague</i><par n="regE__vblex"/></e>
+<e lm="rag"><i>rag</i><par n="dblG__vblex"/></e>
+<e lm="rile"><i>rile</i><par n="regE__vblex"/></e>
+<e lm="vex"><i>vex</i><par n="penReg__vblex"/></e>
 <e lm="chivy"><i>chivy</i><par n="reg__vblex"/></e>
 <e lm="must"><i>must</i><par n="noinf__vblex"/></e>
-<e lm="tire"><i>tire</i><par n="reg__vblex"/></e>
+<e lm="tire"><i>tire</i><par n="regE__vblex"/></e>
 <e lm="exhaust"><i>exhaust</i><par n="reg__vblex"/></e>
-<e lm="fag"><i>fag</i><par n="reg__vblex"/></e>
+<e lm="fag"><i>fag</i><par n="dblG__vblex"/></e>
 <e lm="fag out"><i>fag<b/>out</i><par n="reg__vblex"/></e>
-<e lm="fatigue"><i>fatigue</i><par n="reg__vblex"/></e>
+<e lm="fatigue"><i>fatigue</i><par n="regE__vblex"/></e>
 <e lm="jade"><i>jade</i><par n="reg__vblex"/></e>
 <e lm="wear"><i>wear</i><par n="reg__vblex"/></e>
 <e lm="wear down"><i>wear<b/>down</i><par n="reg__vblex"/></e>
-<e lm="wear out"><i>wear<b/>out</i><par n="reg__vblex"/></e>
+<e lm="wear out"><i>wear<b/>out</i><par n="noinf__vblex"/></e>
 <e lm="wear upon"><i>wear<b/>upon</i><par n="reg__vblex"/></e>
 <e lm="wear"><i>wear</i><par n="reg__vblex"/></e>
 <e lm="was"><i>was</i><par n="noinf__vblex"/></e>

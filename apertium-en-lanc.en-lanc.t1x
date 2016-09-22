@@ -73,7 +73,7 @@
   <section-rules>
       
       <!--
-      Place scwash tag on 'the' . noun (but not, say the . sundry)
+      Place scwash tag on 'the' . noun (but not, say 'the' . sundry . noun)
       -->
      <rule>
       <pattern>
@@ -88,12 +88,20 @@
                 </tags> 
                           
                 <lu>
-<!--
+
                     <clip pos="1" side="tl" part="whole"/>
--->
+<!--
                     <lit v="t'"/>
                     <lit-tag v="tout"/>
+-->
+<!--
+punch in tscwash for the lanc dictionary and post-gen to compress.  
+-->
+                    <lit-tag v="tscwash"/>
+
                 </lu>
+
+            <b/>
 
                 <lu>
                     <clip pos="2" side="tl" part="whole"/>

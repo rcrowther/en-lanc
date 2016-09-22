@@ -31,6 +31,7 @@
 -->
     <sdef n="tsuch"             c="Thing such"/>
     <sdef n="tout"             c="Thing outshow"/>
+    <sdef n="tscwash"             c="Thing squashed"/>
 
 <!--
     <sdef n="prn"             c="Pronoun"/>
@@ -263,11 +264,14 @@
 <!--
  <e lm="the"><p><l><a/>the</l><r>the<s n="tsuch"/></r></p></e>
 -->
-
-    <e lm="the"><i>the</i><par n="tout"/></e>
 <!--
-    <e r="LR" lm="the"><p><l>t'</l><r>the<s n="tout"/></r></p></e>
+    <e lm="the"><i>the</i><par n="tout"/></e>
 -->
+<!--
+tscwash inserted in the taqagger. Otherwise ignored.
+-->
+    <e r="RL" lm="the"><p><l><a/>the</l><r>the<s n="tout"/><s n="tscwash"/></r></p></e>
+
 
     
     <!-- Auto-generation -->
@@ -464,7 +468,7 @@
 <e lm="buss"><i>buss</i><par n="reg__vblex"/></e>
 <e lm="dandle"><i>dandle</i><par n="reg__vblex"/></e>
 <e lm="diddle"><i>diddle</i><par n="reg__vblex"/></e>
-<e lm="don"><i>don</i><par n="noinf__vblex"/></e>
+<e lm="don"><i>don</i><par n="dblN__vblex"/></e>
 <e lm="fag"><i>fag</i><par n="dblG__vblex"/></e>
 <e lm="gab"><i>gab</i><par n="reg__vblex"/></e>
 <e lm="lip"><i>lip</i><par n="reg__vblex"/></e>
@@ -482,6 +486,8 @@
 <e lm="snuff"><i>snuff</i><par n="reg__vblex"/></e>
 <e lm="slur"><i>slur</i><par n="dblR__vblex"/></e>
 <e lm="wesh"><i>wesh</i><par n="reg__vblex"/></e>
+
+
 
 
 
@@ -518,7 +524,7 @@
 <!-- time -->
 <!-- en-lanc_3 -->
 <e lm="clout"><i>clout</i><par n="reg__vblex"/></e>
-<e lm="fettle"><i>fettle</i><par n="reg__vblex"/></e>
+<e lm="fettle"><i>fettle</i><par n="regE__vblex"/></e>
 <e lm="jigger"><i>jigger</i><par n="reg__vblex"/></e>
 <e lm="kilt"><i>kilt</i><par n="noinf__vblex"/></e>
 <e lm="moither"><i>moither</i><par n="reg__vblex"/></e>
@@ -530,6 +536,8 @@
 <!-- en-lanc_3 -->
 <e lm="wi"><i>wi</i><par n="steadw"/></e>
 <e lm="until"><i>until</i><par n="steadw"/></e>
+
+
   </section>
           
   <section id="final" type="inconditional">
