@@ -27,7 +27,7 @@ cd apertium-bar
 cd ..
 
 cd apertium-fie-bar
-./autogen.sh --with-lang1=../apertium-fie --with-lang2=../apertium-bar
+./autogen.sh --with-lang1=../apertium-foo --with-lang2=../apertium-bar
 
 This info from:
 Down to,

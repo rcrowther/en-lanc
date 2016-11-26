@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transfer default="chunk">
+	
+  <section-def-cats>
+<!--
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+-->
+    <def-cat n="noun">
+      <cat-item tags="n.*"/>
+    </def-cat>
+    
+    <def-cat n="vrb">
+      <cat-item tags="vblex.*"/>
+    </def-cat>
+    
+    <def-cat n="wait_vrb">
+      <cat-item lemma="wait" tags="vblex.*"/>
+    </def-cat>
+    
+    <def-cat n="will_vbmod">
+      <cat-item lemma="will" tags="vbmod.*"/>
+    </def-cat>
+
+    <def-cat n="think_vrb">
+      <cat-item lemma="think" tags="vblex.*"/>
+    </def-cat>
+    
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
+    </def-cat>
+    
+    <def-cat n="prn">
+      <cat-item  tags="prn.*"/>
+    </def-cat>
+    
+    <def-cat n="adj">
+      <cat-item  tags="adj.*"/>
+    </def-cat>
+    
+    <def-cat n="adv">
+      <cat-item tags="adv.*"/>
+    </def-cat>
+    
+    <def-cat n="the_det">
+      <cat-item lemma="the" tags="det.*"/>
+    </def-cat>
+    
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="a_noun">
+      <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+    </def-attr>
+     <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+    </def-attr>
+     <def-attr n="a_adv">
+      <attr-item tags="adv"/>
+    </def-attr>
+    <def-attr n="a_time">
+      <attr-item tags="inf"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pprs"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="subs"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+    </def-attr>
+    
+         <def-attr n="a_gen">
+      <attr-item tags="m"/>
+            <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+
+    </def-attr>
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+<!--
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+    </def-attr>
+-->
+
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="number"/>
+  </section-def-vars>
+
+
+
+  <section-def-macros>
+    <def-macro n="test" npar="1">
+          <let>
+            <var n="number"/>
+            <lit v=""/>
+          </let>
+    </def-macro>
+  </section-def-macros>
+
+  <section-rules>
+      
+      <!--
+      Place scwash tag on 'the' . noun (but not, say 'the' . sundry . noun)
+      -->
+               <!--
+
+     <rule>
+      <pattern>
+         <pattern-item n="the"/>
+         <pattern-item n="thing"/>
+      </pattern>
+      <action>
+        <out>
+
+            <chunk name="default" case="default"> 
+
+                <tags>
+                <tag><lit-tag v="default"/></tag>
+                </tags> 
+
+                          
+                <lu>
+
+                    <clip pos="1" side="tl" part="whole"/>
+
+
+                    <lit v="t'"/>
+                    <lit-tag v="tout"/>
+  
+                    <lit-tag v="tscwash" c="punch in tscwash for the lanc dictionary and post-gen to compress."/>
+
+                </lu>
+
+            <b/>
+
+                <lu>
+                    <clip pos="2" side="tl" part="whole"/>
+                </lu>
+
+            </chunk>
+
+
+        </out>
+      </action>
+    </rule>
+    -->
+
+    
+    <rule comment="REGLA: SENT">
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="sent" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  
+    <rule comment="VBLEX">
+       <pattern>
+         <pattern-item n="vrb"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="default"> 
+           <tags>
+              <tag><lit-tag v="default"/></tag>
+           </tags> 
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_verb"/>
+             <clip pos="1" side="tl" part="a_time"/>
+             <!--
+             <clip pos="1" side="tl" part="a_persona"/>
+             -->
+             <clip pos="1" side="tl" part="a_gen"/>
+             <clip pos="1" side="tl" part="a_nbr"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="Adapts 't'' to 'the', if followed by adjective">
+      <pattern>
+         <pattern-item n="the_det"/>
+         <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="default"> 
+            <tags>
+              <tag><lit-tag v="default"/></tag>
+            </tags> 
+            <lu>
+              <lit v="the"/>
+              <lit-tag v="det"/>
+              <lit-tag v="def"/>
+              <lit-tag v="sp"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="Adapts 'I will' to 'see if I don't'">
+      <pattern>
+         <pattern-item n="prn"/>
+         <pattern-item n="will_vbmod"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="unknown"> 
+            <tags>
+              <tag><lit-tag v="unknown"/></tag>
+            </tags> 
+            <lu>
+              <lit v="*see"/>
+            </lu>
+          </chunk>
+          <chunk name="unknown"> 
+            <tags>
+              <tag><lit-tag v="unknown"/></tag>
+            </tags> 
+            <b/>
+            <lu>
+              <lit v="*if"/>
+            </lu>
+          </chunk>
+          <b/>    
+          <chunk name="default"> 
+            <tags>
+              <tag><lit-tag v="default"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+          <b/>
+          <chunk name="unknown"> 
+            <tags>
+              <tag><lit-tag v="unknown"/></tag>
+            </tags>
+            <lu>
+              <lit v="*don't"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+<!--
+   <rule>
+      <pattern>
+        <pattern-item n="prn"/>
+         <pattern-item n="think_vrb"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="default" case="default"> 
+            <tags>
+              <tag><lit-tag v="default"/></tag>
+            </tags> 
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <lit v="got"/>
+              <lit-tag v="vblex"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="into"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="my"/>
+            </lu>
+            <lu>
+              <lit v="head"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    -->
+   </section-rules>
+</transfer>
+
+<!--
+Resources:
+    http://wiki.apertium.org/wiki/Chunking:_A_full_example
+    http://wiki.apertium.org/wiki/Chunking
+    http://wiki.apertium.org/wiki/Apertium_New_Language_Pair_HOWTO#Transfer_rules
+    http://wiki.apertium.org/wiki/A_long_introduction_to_transfer_rules
+    http://wiki.apertium.org/wiki/Transfer#Adding_structural_transfer_.28grammar.29_rules
+-->
+
