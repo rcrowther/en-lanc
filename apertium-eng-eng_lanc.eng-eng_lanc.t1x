@@ -53,15 +53,19 @@
     <def-attr n="a_noun">
       <attr-item tags="n"/>
     </def-attr>
+    
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
     </def-attr>
-     <def-attr n="a_adj">
+    
+    <def-attr n="a_adj">
       <attr-item tags="adj"/>
     </def-attr>
-     <def-attr n="a_adv">
+    
+    <def-attr n="a_adv">
       <attr-item tags="adv"/>
     </def-attr>
+    
     <def-attr n="a_time">
       <attr-item tags="inf"/>
       <attr-item tags="imp"/>
@@ -74,14 +78,21 @@
       <attr-item tags="past"/>
     </def-attr>
     
-         <def-attr n="a_gen">
+    <def-attr n="a_persona">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+    
+    <def-attr n="a_gen">
       <attr-item tags="m"/>
-            <attr-item tags="f"/>
+      <attr-item tags="f"/>
       <attr-item tags="mf"/>
-
     </def-attr>
 
-    <def-attr n="nbr">
+
+
+    <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
@@ -97,6 +108,7 @@
 
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="store1"/>
   </section-def-vars>
 
 
@@ -110,53 +122,8 @@
     </def-macro>
   </section-def-macros>
 
+
   <section-rules>
-      
-      <!--
-      Place scwash tag on 'the' . noun (but not, say 'the' . sundry . noun)
-      -->
-               <!--
-
-     <rule>
-      <pattern>
-         <pattern-item n="the"/>
-         <pattern-item n="thing"/>
-      </pattern>
-      <action>
-        <out>
-
-            <chunk name="default" case="default"> 
-
-                <tags>
-                <tag><lit-tag v="default"/></tag>
-                </tags> 
-
-                          
-                <lu>
-
-                    <clip pos="1" side="tl" part="whole"/>
-
-
-                    <lit v="t'"/>
-                    <lit-tag v="tout"/>
-  
-                    <lit-tag v="tscwash" c="punch in tscwash for the lanc dictionary and post-gen to compress."/>
-
-                </lu>
-
-            <b/>
-
-                <lu>
-                    <clip pos="2" side="tl" part="whole"/>
-                </lu>
-
-            </chunk>
-
-
-        </out>
-      </action>
-    </rule>
-    -->
 
     
     <rule comment="REGLA: SENT">
@@ -192,9 +159,7 @@
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="a_verb"/>
              <clip pos="1" side="tl" part="a_time"/>
-             <!--
              <clip pos="1" side="tl" part="a_persona"/>
-             -->
              <clip pos="1" side="tl" part="a_gen"/>
              <clip pos="1" side="tl" part="a_nbr"/>
              <clip pos="1" side="tl" part="lemq"/>
@@ -204,7 +169,7 @@
        </action>
     </rule>
 
-    <rule comment="Adapts 't'' to 'the', if followed by adjective">
+    <rule comment="Adapts 't'' to 'the', if followed by adjective.">
       <pattern>
          <pattern-item n="the_det"/>
          <pattern-item n="adj"/>
@@ -229,20 +194,52 @@
         </out>
       </action>
     </rule>
-    
-    <rule comment="Adapts 'I will' to 'see if I don't'">
+
+
+    <rule comment="Adapts 'I will' to 'see if I don't' Currently can mis-case with 'I'">
       <pattern>
          <pattern-item n="prn"/>
          <pattern-item n="will_vbmod"/>
       </pattern>
       <action>
+
+        <!--  Set 'see' chunk. First letter upper or lower depending on current pronoun -->
+        <choose>
+          <when>
+            <test>
+                <equal><case-of pos="1" side="sl" part="lemh"/><lit v="Aa"/></equal>
+            </test>
+            <let><var n="store1"/><lit v="*See"/></let>
+          </when>
+        <otherwise>
+            <let><var n="store1"/><lit v="*see"/></let>
+        </otherwise>
+        </choose>
+
+          <!-- pronoun shifted right is lower, except 'I' -->
+        <choose>
+        <when>
+          <test>
+            <not><and>
+              <equal><clip pos="1" side="sl" part="a_persona"/><lit-tag v="p1"/></equal>
+              <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+            </and></not>
+          </test>
+          <modify-case>
+            <clip pos="1" side="tl" part="lemh"/>
+            <lit v="aa"/>
+          </modify-case>
+        </when>
+        </choose>
+        
+        
         <out>
           <chunk name="unknown"> 
             <tags>
               <tag><lit-tag v="unknown"/></tag>
             </tags> 
             <lu>
-              <lit v="*see"/>
+              <var n="store1"/>
             </lu>
           </chunk>
           <chunk name="unknown"> 

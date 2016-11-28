@@ -421,7 +421,7 @@
     <pardef n="/she__prn">
       <e r="RL">       <p><l>hoo</l>       <r>she<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>hoo</l>       <r>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>hoo</l>       <r>she<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>her</l>       <r>she<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="/it__prn">
@@ -3465,7 +3465,11 @@
 <e lm="folks"><i>folks</i><par n="east__n"/></e>
 <e lm="way"><i>way</i><par n="house__n"/></e>
 <e lm="tippler"><i>tippler</i><par n="house__n"/></e>
-<e lm="lady"><i>lady</i><par n="east__n"/></e>
+<e lm="lady"><i>lad</i><par n="bab/y__n"/></e>
+<e lm="kirk"><i>kirk</i><par n="house__n"/></e>
+<e lm="talk"><i>talk</i><par n="house__n"/></e>
+<e lm="relief"><i>relief</i><par n="house__n"/></e>
+<e lm="distress"><i>distress</i><par n="access__n"/></e>
 <e lm="fair"><i>fair</i><par n="glad/__adj"/></e>
 <e lm="in the family way"><i>in<b/>the<b/>family<b/>way</i><par n="expensive__adj"/></e>
 <e lm="jobs a good one"><i>jobs<b/>a<b/>good<b/>one</i><par n="hello__ij"/></e>
@@ -3478,15 +3482,15 @@
 <e lm="oyle"><i>oyle</i><par n="house__n"/></e>
 <e lm="lowse"><i>lowse</i><par n="house__n"/></e>
 <e lm="box"><i>box</i><par n="access__n"/></e>
-<e lm="midden"><i>midden</i><par n="east__n"/></e>
+<e lm="midden"><i>midden</i><par n="house__n"/></e>
 <e lm="muck"><i>muck</i><par n="east__n"/></e>
 <e lm="shite"><i>shite</i><par n="east__n"/></e>
 <e lm="cac"><i>cac</i><par n="east__n"/></e>
 <e lm="tatty"><i>tatt</i><par n="bab/y__n"/></e>
 <e lm="brig"><i>brig</i><par n="house__n"/></e>
-<e lm="ee"><i>ee</i><par n="ox__n"/></e>
+<e lm="e"><i>e</i><par n="ox__n"/></e>
 <e lm="garrett"><i>garrett</i><par n="house__n"/></e>
-<e lm="neddy"><i>neddy</i><par n="house__n"/></e>
+<e lm="neddy"><i>nedd</i><par n="bab/y__n"/></e>
 <e lm="brock"><i>brock</i><par n="house__n"/></e>
 <e lm="neb"><i>neb</i><par n="house__n"/></e>
 <e lm="beck"><i>beck</i><par n="house__n"/></e>
@@ -3498,7 +3502,7 @@
 <e lm="privvy"><i>privv</i><par n="bab/y__n"/></e>
 <e lm="mawk"><i>mawk</i><par n="house__n"/></e>
 <e lm="mard"><i>mard</i><par n="house__n"/></e>
-<e lm="lass"><i>lass</i><par n="house__n"/></e>
+<e lm="lass"><i>lass</i><par n="access__n"/></e>
 <e lm="lad"><i>lad</i><par n="house__n"/></e>
 <e lm="baggin"><i>baggin</i><par n="house__n"/></e>
 <e lm="clags"><i>clags</i><par n="east__n"/></e>
@@ -3511,14 +3515,15 @@
 <e lm="nowt"><i>nowt</i><par n="everyone__prn"/></e>
 <e lm="summat"><i>summat</i><par n="something__prn"/></e>
 <e lm="tuther"><i>tuther</i><par n="other__det"/></e>
-<e lm="brosen"><i>brosen</i><par n="broad/__adj"/></e>
-<e lm="gradely"><i>gradel</i><par n="lovel/y__adj"/></e>
+<e lm="nay"><i>nay</i><par n="the__det"/></e>
+<e lm="brosen"><i>brosen</i><par n="long/__adj"/></e>
+<e lm="gradely"><i>gradel</i><par n="happ/y__adj"/></e>
 <e lm="puddled"><i>puddled</i><par n="expensive__adj"/></e>
 <e lm="mickle"><i>mickle</i><par n="expensive__adj"/></e>
 <e lm="smidgen"><i>smidgen</i><par n="expensive__adj"/></e>
 <e lm="a mite"><i>a<b/>mite</i><par n="expensive__adj"/></e>
 <e lm="owd"><i>owd</i><par n="long/__adj"/></e>
-<e lm="keck"><i>keck</i><par n="expensive__adj"/></e>
+<e lm="keck"><i>keck</i><par n="long/__adj"/></e>
 <e lm="cack-handed"><i>cack-handed</i><par n="expensive__adj"/></e>
 <e lm="nay"><i>nay</i><par n="hello__ij"/></e>
 <e lm="aye"><i>aye</i><par n="hello__ij"/></e>
@@ -3527,24 +3532,32 @@
 <e lm="cap"><i>cap</i><par n="step__vblex"/></e>
 <e lm="throng"><i>throng</i><par n="accept__vblex"/></e>
 <e lm="bray"><i>bray</i><par n="accept__vblex"/></e>
-<e lm="skrike"><i>skrike</i><par n="accept__vblex"/></e>
-<e lm="ken"><i>ken</i><par n="accept__vblex"/></e>
+<e lm="skrike"><i>skrik</i><par n="liv/e__vblex"/></e>
+<e lm="ken"><i>ken</i><par n="plan__vblex"/></e>
 <e lm="sken"><i>sken</i><par n="plan__vblex"/></e>
 <e lm="skit"><i>skit</i><par n="fit__vblex"/></e>
 <e lm="deg"><i>deg</i><par n="plug__vblex"/></e>
 <e lm="witchett"><i>witchett</i><par n="accept__vblex"/></e>
 <e lm="moider"><i>moider</i><par n="accept__vblex"/></e>
-<e lm="delve"><i>delve</i><par n="enjoy__vblex"/></e>
+<e lm="delve"><i>delv</i><par n="liv/e__vblex"/></e>
 <e lm="lowk"><i>lowk</i><par n="accept__vblex"/></e>
 <e lm="get"><i>g</i><par n="beg/et__vblex"/></e>
 <e lm="et"><i></i><par n="beg/et__vblex"/></e>
 <e lm="mun"><i>mun</i><par n="must__vbmod"/></e>
 <e lm="a deal"><i>a<b/>deal</i><par n="maybe__adv"/></e>
+<e lm="nay"><i>nay</i><par n="maybe__adv"/></e>
+<e lm="aye"><i>aye</i><par n="maybe__adv"/></e>
 <e lm="happen"><i>happen</i><par n="maybe__adv"/></e>
 <e lm="marry"><i>marry</i><par n="maybe__adv"/></e>
 <e lm="weasand"><i>weasand</i><par n="house__n"/></e>
-<e lm="natural"><i>natural</i><par n="east__n"/></e>
-<e lm="bantin"><i>bantin</i><par n="east__n"/></e>
+<e lm="natural"><i>natural</i><par n="house__n"/></e>
+<e lm="bowe"><i>bowe</i><par n="house__n"/></e>
+<e lm="bam"><i>bam</i><par n="house__n"/></e>
+<e lm="braid"><i>braid</i><par n="house__n"/></e>
+<e lm="barm"><i>barm</i><par n="house__n"/></e>
+<e lm="saut"><i>saut</i><par n="house__n"/></e>
+<e lm="yarb"><i>yarb</i><par n="house__n"/></e>
+<e lm="bantin"><i>bantin</i><par n="house__n"/></e>
 <e lm="beest"><i>beest</i><par n="east__n"/></e>
 <e lm="biggin"><i>biggin</i><par n="house__n"/></e>
 <e lm="breéther"><i>breéther</i><par n="house__n"/></e>
@@ -3554,22 +3567,21 @@
 <e lm="chen"><i>chen</i><par n="house__n"/></e>
 <e lm="churn milk"><i>churn<b/>milk</i><par n="east__n"/></e>
 <e lm="clatter"><i>clatter</i><par n="east__n"/></e>
-<e lm="cockers"><i>cockers</i><par n="east__n"/></e>
+<e lm="cockers"><i>cockers</i><par n="house__n"/></e>
 <e lm="cogley"><i>cogley</i><par n="east__n"/></e>
 <e lm="dad"><i>dad</i><par n="house__n"/></e>
 <e lm="daffock"><i>daffock</i><par n="house__n"/></e>
 <e lm="dotter"><i>dotter</i><par n="house__n"/></e>
-<e lm="dumps"><i>dumps</i><par n="east__n"/></e>
 <e lm="dur"><i>dur</i><par n="house__n"/></e>
 <e lm="fither"><i>fither</i><par n="house__n"/></e>
 <e lm="gate"><i>gate</i><par n="access__n"/></e>
 <e lm="grese"><i>grese</i><par n="access__n"/></e>
 <e lm="hont"><i>hont</i><par n="east__n"/></e>
 <e lm="hons"><i>hons</i><par n="east__n"/></e>
-<e lm="cama"><i>cama</i><par n="east__n"/></e>
-<e lm="meeny"><i>meeny</i><par n="east__n"/></e>
+<e lm="cama"><i>cama</i><par n="house__n"/></e>
+<e lm="meeny"><i>meen</i><par n="bab/y__n"/></e>
 <e lm="moor"><i>moor</i><par n="house__n"/></e>
-<e lm="mullock"><i>mullock</i><par n="east__n"/></e>
+<e lm="mullock"><i>mullock</i><par n="house__n"/></e>
 <e lm="nob"><i>nob</i><par n="house__n"/></e>
 <e lm="nese"><i>nese</i><par n="house__n"/></e>
 <e lm="neb"><i>neb</i><par n="house__n"/></e>
@@ -3578,15 +3590,16 @@
 <e lm="swipper"><i>swipper</i><par n="house__n"/></e>
 <e lm="sunk"><i>sunk</i><par n="east__n"/></e>
 <e lm="woo"><i>woo</i><par n="east__n"/></e>
-<e lm="flay"><i>flay</i><par n="east__n"/></e>
+<e lm="flay"><i>flay</i><par n="house__n"/></e>
 <e lm="crony"><i>cron</i><par n="bab/y__n"/></e>
 <e lm="varment"><i>varment</i><par n="house__n"/></e>
 <e lm="warlock"><i>warlock</i><par n="house__n"/></e>
-<e lm="editch"><i>editch</i><par n="access__n"/></e>
+<e lm="editch"><i>editch</i><par n="house__n"/></e>
+<e lm="strike of day"><i>strike<b/>of<b/>day</i><par n="east__n"/></e>
 <e lm="banging"><i>banging</i><par n="expensive__adj"/></e>
 <e lm="bawtry"><i>bawtr</i><par n="happ/y__adj"/></e>
 <e lm="beholden"><i>beholden</i><par n="expensive__adj"/></e>
-<e lm="bonny"><i>bonny</i><par n="expensive__adj"/></e>
+<e lm="bonny"><i>bonn</i><par n="happ/y__adj"/></e>
 <e lm="breet"><i>breet</i><par n="long/__adj"/></e>
 <e lm="cant"><i>cant</i><par n="expensive__adj"/></e>
 <e lm="doesum"><i>doesum</i><par n="expensive__adj"/></e>
@@ -3597,67 +3610,64 @@
 <e lm="hacklt"><i>hacklt</i><par n="expensive__adj"/></e>
 <e lm="muzzy"><i>muzz</i><par n="happ/y__adj"/></e>
 <e lm="spare"><i>spare</i><par n="nice/__adj"/></e>
-<e lm="strike of day"><i>strike<b/>of<b/>day</i><par n="expensive__adj"/></e>
 <e lm="editch"><i>editch</i><par n="expensive__adj"/></e>
+<e lm="by t'mun"><i>by<b/>t'mun</i><par n="hello__ij"/></e>
+<e lm="husht"><i>husht</i><par n="hello__ij"/></e>
 <e lm="for"><i>for</i><par n="after__cnjadv"/></e>
 <e lm="'cose"><i>'cose</i><par n="that__cnjsub"/></e>
 <e lm="abaht"><i>abaht</i><par n="at__pr"/></e>
 <e lm="naar"><i>naar</i><par n="at__pr"/></e>
 <e lm="awbut"><i>awbut</i><par n="at__pr"/></e>
+<e lm="by"><i>by</i><par n="at__pr"/></e>
 <e lm="awsin"><i>awsin</i><par n="accept__vblex"/></e>
-<e lm="bárkle"><i>bárkle</i><par n="accept__vblex"/></e>
-<e lm="blab"><i>blab</i><par n="accept__vblex"/></e>
+<e lm="bárkle"><i>bárkl</i><par n="liv/e__vblex"/></e>
+<e lm="blab"><i>blab</i><par n="dub__vblex"/></e>
 <e lm="brun"><i>brun</i><par n="accept__vblex"/></e>
-<e lm="buss"><i>buss</i><par n="accept__vblex"/></e>
-<e lm="dandle"><i>dandle</i><par n="accept__vblex"/></e>
-<e lm="diddle"><i>diddle</i><par n="accept__vblex"/></e>
+<e lm="buss"><i>buss</i><par n="approach__vblex"/></e>
+<e lm="dandle"><i>dandl</i><par n="liv/e__vblex"/></e>
+<e lm="diddle"><i>diddl</i><par n="liv/e__vblex"/></e>
 <e lm="don"><i>don</i><par n="plan__vblex"/></e>
 <e lm="fag"><i>fag</i><par n="plug__vblex"/></e>
-<e lm="gab"><i>gab</i><par n="accept__vblex"/></e>
-<e lm="lip"><i>lip</i><par n="accept__vblex"/></e>
+<e lm="gab"><i>gab</i><par n="dub__vblex"/></e>
+<e lm="lip"><i>lip</i><par n="step__vblex"/></e>
 <e lm="huff"><i>huff</i><par n="accept__vblex"/></e>
 <e lm="lob"><i>lob</i><par n="dub__vblex"/></e>
 <e lm="make"><i>ma</i><par n="ma/ke__vblex"/></e>
 <e lm="marrow"><i>marrow</i><par n="accept__vblex"/></e>
 <e lm="maul"><i>maul</i><par n="accept__vblex"/></e>
-<e lm="oss"><i>os</i><par n="liv/e__vblex"/></e>
+<e lm="oss"><i>oss</i><par n="approach__vblex"/></e>
 <e lm="pad"><i>pad</i><par n="shred__vblex"/></e>
 <e lm="pick"><i>pick</i><par n="accept__vblex"/></e>
 <e lm="pump"><i>pump</i><par n="accept__vblex"/></e>
-<e lm="quif"><i>quif</i><par n="admit__vblex"/></e>
+<e lm="quiff"><i>quiff</i><par n="accept__vblex"/></e>
 <e lm="reech"><i>reech</i><par n="accept__vblex"/></e>
 <e lm="snuff"><i>snuff</i><par n="accept__vblex"/></e>
 <e lm="slur"><i>slur</i><par n="occur__vblex"/></e>
-<e lm="wesh"><i>wesh</i><par n="accept__vblex"/></e>
+<e lm="wesh"><i>wesh</i><par n="approach__vblex"/></e>
 <e lm="dolly"><i>doll</i><par n="appl/y__vblex"/></e>
 <e lm="weer"><i>weer</i><par n="maybe__adv"/></e>
 <e lm="endways"><i>endways</i><par n="maybe__adv"/></e>
 <e lm="forrud"><i>forrud</i><par n="maybe__adv"/></e>
 <e lm="eaware"><i>eaware</i><par n="maybe__adv"/></e>
-<e lm="bayly"><i>bayly</i><par n="east__n"/></e>
+<e lm="bayly"><i>bayl</i><par n="bab/y__n"/></e>
 <e lm="benny"><i>ben</i><par n="pen/ny__n"/></e>
 <e lm="britchies"><i>britchies</i><par n="personnel__n"/></e>
-<e lm="brossen"><i>brossen</i><par n="east__n"/></e>
 <e lm="butty"><i>butty</i><par n="east__n"/></e>
 <e lm="dule"><i>dule</i><par n="east__n"/></e>
 <e lm="seg"><i>seg</i><par n="house__n"/></e>
-<e lm="git"><i>git</i><par n="east__n"/></e>
+<e lm="git"><i>git</i><par n="house__n"/></e>
 <e lm="gob"><i>gob</i><par n="house__n"/></e>
 <e lm="missus"><i>missus</i><par n="house__n"/></e>
 <e lm="master"><i>master</i><par n="house__n"/></e>
-<e lm="yed"><i>yed</i><par n="house__n"/></e>
-<e lm="warch"><i>warch</i><par n="east__n"/></e>
+<e lm="warch"><i>warch</i><par n="access__n"/></e>
 <e lm="lug"><i>lug</i><par n="house__n"/></e>
-<e lm="nesh"><i>nesh</i><par n="east__n"/></e>
 <e lm="nouse"><i>nouse</i><par n="east__n"/></e>
 <e lm="wi"><i>wi</i><par n="at__pr"/></e>
 <e lm="fain"><i>fain</i><par n="glad/__adj"/></e>
-<e lm="clout"><i>clout</i><par n="enjoy__vblex"/></e>
+<e lm="nesh"><i>nesh</i><par n="long/__adj"/></e>
 <e lm="fettle"><i>fettl</i><par n="liv/e__vblex"/></e>
-<e lm="jigger"><i>jigger</i><par n="enjoy__vblex"/></e>
 <e lm="kill"><i>kil</i><par n="dwel/l__vblex"/></e>
-<e lm="moither"><i>moither</i><par n="enjoy__vblex"/></e>
-<e lm="wack"><i>wack</i><par n="enjoy__vblex"/></e>
+<e lm="moither"><i>moither</i><par n="accept__vblex"/></e>
 <e lm="until"><i>until</i><par n="that__cnjsub"/></e>
 <e lm="yon"><i>yon</i><par n="maybe__adv"/></e>
 <e lm="dinner"><i>dinner</i><par n="house__n"/></e>
@@ -3686,7 +3696,10 @@
 <e lm="right"><i>right</i><par n="maybe__adv"/></e>
 <e lm="fain"><i>fain</i><par n="maybe__adv"/></e>
 <e lm="very near"><i>very<b/>near</i><par n="maybe__adv"/></e>
+<e lm="properly"><i>properly</i><par n="maybe__adv"/></e>
 <e lm="on"><i>on</i><par n="at__pr"/></e>
+
+
 
 
 
